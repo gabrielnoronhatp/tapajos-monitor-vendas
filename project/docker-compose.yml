@@ -1,14 +1,21 @@
-version: '3.9'
+version: '3.8'
 
 services:
-  app:
+  frontend:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "2004:3000"
+      - "2003:3001" 
+    restart: always
     environment:
+      - VITE_API_URL=http://10.2.10.17:3001
       - NODE_ENV=production
-    volumes:
-      - .:/app
-    command: ["npm", "start"]
+      - HTTPS=true
+    networks:
+      - app_monitor
+
+networks:
+  app_network:
+    driver: bridge
