@@ -17,6 +17,9 @@ RUN npm install --legacy-peer-deps
 COPY . .
 
 # Crie o diretório .next e ajuste as permissões
+RUN mkdir -p .next
+RUN chmod -R 755 /app
+
 
 # Mude para o usuário node
 USER node
