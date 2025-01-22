@@ -44,6 +44,9 @@ export function Navbar() {
     }
 
     fetchData();
+    const interval = setInterval(fetchData, 10000);
+
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
@@ -58,10 +61,10 @@ export function Navbar() {
   useEffect(() => {
     const statsTimer = setInterval(() => {
       setStats({
-        sales: Math.floor(Math.random() * 10000),
+        sales: Math.floor(Math.random() * 1000),
         returns: Math.floor(Math.random() * 1000),
       });
-    }, 5000);
+    }, 1000);
 
     return () => clearInterval(statsTimer);
   }, []);
@@ -94,16 +97,17 @@ export function Navbar() {
         <div className="flex gap-12">
           {/* Sales */}
           <div className="text-center">
-            <div className="text-white text-lg font-semibold">Vendas</div>
-            <div className="text-white text-xl font-bold">
-              {vendaTotal}
+            <div className="text-white text-1xl font-semibold">Vendas</div>
+            
+            <div className="text-white text-3xl font-bold">
+              {vendaTotal !== null ? vendaTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) : 'Loading...'}
             </div>
           </div>
 
           {/* Returns */}
           <div className="text-center">
-            <div className="text-white text-lg font-semibold">Devoluções</div>
-            <div className="text-white text-xl font-bold">
+            <div className="text-white text-1xl font-semibold">Devoluções</div>
+            <div className="text-white text-3xl font-bold">
               {devolucoes}
             </div>
           </div>

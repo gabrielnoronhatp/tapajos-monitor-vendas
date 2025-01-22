@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Table Carousel',
+  title: 'Monitor de Vendas',
   description: 'Table carousel with time periods',
 };
 
@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+            <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={montserrat.className}>{children}</body>
     </html>
   );

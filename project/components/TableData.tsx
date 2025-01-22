@@ -53,6 +53,9 @@ export function TableData() {
     }
 
     fetchData();
+    const intervalId = setInterval(fetchData, 1000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   useEffect(() => {
@@ -69,7 +72,11 @@ export function TableData() {
         console.error(err);
       }
     }
+
     fetchDataByBandeira();
+    const intervalId = setInterval(fetchDataByBandeira, 1000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   useEffect(() => {
