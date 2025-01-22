@@ -10,12 +10,14 @@ export function TableHeader({
   isExpanded,
   totals,
   currentPeriod,
+  onPeriodClick,
 }: {
   bandeira: string;
   onBandeiraClick: () => void;
   isExpanded: boolean;
   totals: { [key: string]: number };
   currentPeriod: string;
+  onPeriodClick: (period: string) => void;
 }) {
   const getImageForBandeira = (bandeira: string) => {
     switch (bandeira) {
@@ -72,18 +74,18 @@ export function TableHeader({
           "22:00 - 22:59",
           "23:00 - 23:59",
         ];
-      default:
+      default: 
         return [];
     }
   };
 
-  const periodHours = getPeriodHours(currentPeriod);
+
 
   return (
     <thead className="w-full">
       <tr className="bg-gray-800">
         <th
-          className="p-4 text-white border-r border-gray-700 w-[200px] cursor-pointer  "
+          className="p-4 text-white border-r border-gray-700 w-[200px] cursor-pointer"
           onClick={onBandeiraClick}
         >
           <div className="relative w-full h-[150px] overflow-hidden rounded-lg">
@@ -95,23 +97,22 @@ export function TableHeader({
             />
           </div>
         </th>
-        <th colSpan={6} className="p-4 text-white border-r border-gray-700  ">
-          <div
-            className="flex items-center justify-around gap-2 w-full"
-          >
-            {["Madrugada", "Manhã", "Tarde", "Noite"].map((period) => (
+        <th colSpan={6} className="p-4 text-white border-r border-gray-700">
+          <div className="flex items-center justify-around gap-2 w-full">
+            {["Madrugada", "Manha", "Tarde", "Noite"].map((period) => (
               <div
                 key={period}
-                className={`flex flex-col items-center ${
-                  isExpanded && period.toLowerCase() === currentPeriod
+                className={`flex flex-col items-center transition-opacity duration-300 ${
+                  period.toLowerCase() === currentPeriod
                     ? "opacity-100"
-                    : "opacity-100"
+                    : "opacity-50"
                 }`}
+                onClick={() => onPeriodClick(period.toLowerCase())}
               >
                 {period === "Madrugada" && (
                   <Moon className="w-8 h-8 text-blue-300 mb-2" />
                 )}
-                {period === "Manhã" && (
+                {period === "Manha" && (
                   <Sunrise className="w-8 h-8 text-yellow-300 mb-2" />
                 )}
                 {period === "Tarde" && (
@@ -125,21 +126,6 @@ export function TableHeader({
             ))}
           </div>
         </th>
-      </tr>
-      <tr className="bg-gray-800">
-        {isExpanded
-          ? periodHours.map((time) => (
-              <th
-                key={time}
-                
-                className="p-3 text-white border-r border-gray-700 text-sm"
-                
-              >
-               
-                {time}
-              </th>
-            ))
-          : ""}
       </tr>
     </thead>
   );

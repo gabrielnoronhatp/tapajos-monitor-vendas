@@ -4,13 +4,19 @@ import { useEffect, useState } from "react";
 import "@/styles/globals.css";
 import { TableHeader } from "./TableHeader";
 
-type StoreData = {
+  type StoreData = {
   idempresaint: number;
   loja: string;
   hora: number;
   valor: number;
   tipo: string;
   grupo: string;
+};
+
+type BandeiraData = {
+  grupo: string;
+  hora: string;
+  valor: number;
 };
 
 const bandeiras = [
@@ -22,25 +28,23 @@ const bandeiras = [
 const ITEMS_PER_BANDEIRA = 8;
 
 export function TableData() {
-  const [data, setData] = useState<StoreData[]>([]);
+  const [data, setData] = useState<any[]>([]);
+  const [bandeiraData, setBandeiraData] = useState<BandeiraData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filteredData, setFilteredData] = useState<{
     [key: string]: StoreData[];
   }>({});
   const [viewByStore, setViewByStore] = useState<Set<string>>(new Set());
+  const [selectedPeriod, setSelectedPeriod] = useState<string | null>(null);
 
   useEffect(() => {
     async function fetchData() {
       try {
         const response = await fetch("/api/fetchData");
-        if (!response.ok) {
-          throw new Error("Erro ao buscar dados");
-        }
         const result = await response.json();
-        setData(
-          result.madrugada.concat(result.manha, result.tarde, result.noite)
-        ); // Combine todos os períodos
+        console.log("patam ", result);
+        setData(result);
       } catch (err: any) {
         setError(err.message);
       } finally {
@@ -52,10 +56,39 @@ export function TableData() {
   }, []);
 
   useEffect(() => {
+    async function fetchDataByBandeira() {
+      try {
+        const response = await fetch("/api/fetchDataByBandeira");
+        if (!response.ok) {
+          throw new Error("Erro ao buscar dados por bandeira");
+        }
+        const result = await response.json();
+        console.log("Dados por bandeira:", result);
+        setBandeiraData(result);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+    fetchDataByBandeira();
+  }, []);
+
+  useEffect(() => {
     const dataByBandeira: { [key: string]: StoreData[] } = {};
 
-    bandeiras.forEach((bandeira) => {
-      dataByBandeira[bandeira] = data.filter((item) => item.grupo === bandeira);
+    const periods = ["madrugada", "manha", "tarde", "noite"];
+
+    periods.forEach((period:any) => {
+      const periodData = data[period] || [];
+
+      periodData.forEach((item: StoreData) => {
+        const bandeira = item.grupo;
+
+        if (!dataByBandeira[bandeira]) {
+          dataByBandeira[bandeira] = [];
+        }
+
+        dataByBandeira[bandeira].push(item);
+      });
     });
 
     setFilteredData(dataByBandeira);
@@ -71,13 +104,13 @@ export function TableData() {
   const getPeriodHours = (period: string) => {
     switch (period) {
       case "madrugada":
-        return Array.from({ length: 6 }, (_, i) => i); // 0 to 5
+        return Array.from({ length: 6 }, (_, i) => i);
       case "manha":
-        return Array.from({ length: 6 }, (_, i) => i + 6); // 6 to 11
+        return Array.from({ length: 6 }, (_, i) => i + 6);
       case "tarde":
-        return Array.from({ length: 6 }, (_, i) => i + 12); // 12 to 17
+        return Array.from({ length: 6 }, (_, i) => i + 12);
       case "noite":
-        return Array.from({ length: 6 }, (_, i) => i + 18); // 18 to 23
+        return Array.from({ length: 6 }, (_, i) => i + 18);
       default:
         return [];
     }
@@ -100,10 +133,15 @@ export function TableData() {
     if (currentHour >= 0 && currentHour < 6) return "madrugada";
     if (currentHour >= 6 && currentHour < 12) return "manha";
     if (currentHour >= 12 && currentHour < 18) return "tarde";
+    if (currentHour >= 18 && currentHour < 24) return "noite";
     return "noite";
   };
 
-  const currentPeriod = getCurrentPeriod();
+  const handlePeriodClick = (period: string) => {
+    setSelectedPeriod(period);
+  };
+
+  const currentPeriod = selectedPeriod || getCurrentPeriod();
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
@@ -112,13 +150,16 @@ export function TableData() {
     <div>
       {bandeiras.map((bandeira) => {
         const stores = filteredData[bandeira] || [];
-        const limitedStores = stores.slice(0, ITEMS_PER_BANDEIRA);
         const totals = {
           madrugada: calculateTotalByPeriod(stores, "madrugada"),
           manha: calculateTotalByPeriod(stores, "manha"),
           tarde: calculateTotalByPeriod(stores, "tarde"),
           noite: calculateTotalByPeriod(stores, "noite"),
         };
+
+        const bandeiraTotals = bandeiraData.filter(
+          (item) => item.grupo === bandeira
+        );
 
         return (
           <div key={bandeira} className="flex justify-between items-start mb-8">
@@ -129,55 +170,101 @@ export function TableData() {
                 isExpanded={viewByStore.has(bandeira)}
                 totals={totals}
                 currentPeriod={currentPeriod}
+                onPeriodClick={handlePeriodClick}
               />
-              <tbody className="transition-all duration-500">
-                {viewByStore.has(bandeira) ? (
-                  limitedStores.map((store) => (
-                    <tr
-                      key={store.idempresaint}
-                      className="border-b border-gray-700 hover:bg-gray-900"
-                    >
-                      <td className="p-4 text-white border-r border-gray-700">
-                        {store.loja}
-                      </td>
-                      {getPeriodHours(currentPeriod).map((hour) => (
-                        <td
+              {viewByStore.has(bandeira) ? (
+                <>
+                  <thead>
+                    <tr>
+                      <th className="p-4 text-white border-r border-gray-700">
+                        Loja
+                      </th>
+                      {getPeriodHours(currentPeriod).map((hour, index) => (
+                        <th
                           key={hour}
                           className="p-4 text-white border-r border-gray-700 text-center"
+                        >
+                          {`${hour}:00 - ${hour}:59`}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="transition-all duration-500">
+                    {Array.from(
+                      new Map(
+                        stores.map((store) => [store.idempresaint, store.loja])
+                      ).values()
+                    )
+                      .slice(0, 10)
+                      .map((loja) => {
+                        const storeEntries = stores.filter(
+                          (store) => store.loja === loja
+                        );
+
+                        const currentPeriodHours =
+                          getPeriodHours(currentPeriod);
+
+                        return (
+                          <tr
+                            key={storeEntries[0].idempresaint}
+                            className="border-b border-gray-700 hover:bg-gray-900"
+                          >
+                            <td className="p-4 text-white border-r border-gray-700">
+                              {loja}
+                            </td>
+                            {currentPeriodHours.map((hourRange) => {
+                              const store = storeEntries.find(
+                                (s) => s.hora === hourRange
+                              );
+                              const value = store ? store.valor : 0;
+
+                              return (
+                                <td
+                                  key={`${loja}-${hourRange}`}
+                                  className="p-4 text-white border-r border-gray-700 text-center"
+                                >
+                                  {value.toFixed(2)}
+                                </td>
+                              );
+                            })}
+                          </tr>
+                        );
+                      })}
+                  </tbody>
+                </>
+              ) : (
+                <tr>
+                  <td className="p-3 mt-4 table-head"></td>
+                  {["a. Madrugada", "b. Manha", "c. Tarde", "d. Noite"].map(
+                    (period) => {
+                      const periodTotal =
+                        bandeiraTotals.find((item) => item.hora === period)
+                          ?.valor || 0;
+                      return (
+                        <td
+                          key={period}
+                          className="p-4 text-white border-r border-gray-700 text-center table-head"
                         >
                           {new Intl.NumberFormat("pt-BR", {
                             style: "currency",
                             currency: "BRL",
-                          }).format(store.hora === hour ? store.valor : 0)}
+                          }).format(periodTotal)}
                         </td>
-                      ))}
-                    </tr>
-                  ))
-                ) : (
-                  <tr>
-                    <td className="p-3 mt-4 table-head"></td>
-                    {["madrugada", "manha", "tarde", "noite"].map((period) => (
-                      <td
-                        key={period}
-                        className="p-4 text-white border-r border-gray-700 text-center table-head"
-                      >
-                        {new Intl.NumberFormat("pt-BR", {
-                          style: "currency",
-                          currency: "BRL",
-                        }).format(totals[period])}
-                      </td>
-                    ))}
-                  </tr>
-                )}
-              </tbody>
+                      );
+                    }
+                  )}
+                </tr>
+              )}
             </table>
             <div className="ml-10 text-white text-xl">
               Valor total por bandeira
               <br />
-              <span>{new Intl.NumberFormat("pt-BR", {
-                style: "currency",
-                currency: "BRL",
-              }).format(totals[currentPeriod])}</span>
+              <span>
+                {new Intl.NumberFormat("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                }).format(stores.reduce((acc, store) => acc + store.valor, 0))}
+              </span>
             </div>
           </div>
         );

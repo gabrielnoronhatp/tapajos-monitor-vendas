@@ -1,6 +1,5 @@
 'use client';
 
-import { set } from 'date-fns';
 import { useEffect, useState } from 'react';
 
 type Stats = {
@@ -9,7 +8,7 @@ type Stats = {
 };
 
 export function Navbar() {
-  const [time, setTime] = useState(new Date());
+  const [time, setTime] = useState<Date | null>(null);
   const [stats, setStats] = useState<Stats>({
     sales: 0,
     returns: 0,
@@ -33,11 +32,11 @@ export function Navbar() {
           throw new Error('Erro ao buscar dados');
         }
         const result = await response.json();
-        console.log('result',result)
+        console.log('result', result);
         setData(result);
-        setVendaTotal(result.venda_total)
-        setDevolucoes(result.devolucao_total)
-      } catch (err:any) {
+        setVendaTotal(result.venda_total);
+        setDevolucoes(result.devolucao_total);
+      } catch (err: any) {
         setError(err.message);
       } finally {
         setLoading(false);
@@ -84,11 +83,11 @@ export function Navbar() {
 
         {/* Time */}
         <div className="text-white text-4xl font-bold">
-          {time.toLocaleTimeString('pt-BR', {
+          {time ? time.toLocaleTimeString('pt-BR', {
             hour: '2-digit',
             minute: '2-digit',
             second: '2-digit',
-          })}
+          }) : 'Loading...'}
         </div>
 
         {/* Stats */}
@@ -97,7 +96,7 @@ export function Navbar() {
           <div className="text-center">
             <div className="text-white text-lg font-semibold">Vendas</div>
             <div className="text-white text-xl font-bold">
-            {vendaTotal}
+              {vendaTotal}
             </div>
           </div>
 
@@ -105,7 +104,7 @@ export function Navbar() {
           <div className="text-center">
             <div className="text-white text-lg font-semibold">Devoluções</div>
             <div className="text-white text-xl font-bold">
-               {devolucoes}
+              {devolucoes}
             </div>
           </div>
         </div>
