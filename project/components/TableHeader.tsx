@@ -85,20 +85,20 @@ export function TableHeader({
     <thead className="w-full">
       <tr className="bg-gray-800">
         <th
-          className="p-4 text-white border-r border-gray-700 w-[200px] cursor-pointer"
+          className="p-2 text-white border-r border-gray-700 w-[150px] cursor-pointer"
           onClick={onBandeiraClick}
         >
-          <div className="relative w-full h-[150px] overflow-hidden rounded-lg">
+          <div className="relative w-full h-[100px] overflow-hidden rounded-lg">
             <Image
               src={selectedImage}
               alt={`Imagem para ${bandeira}`}
-              sizes="200px"
+              sizes="150px"
               priority
             />
           </div>
         </th>
-        <th colSpan={6} className="p-4 text-white border-r border-gray-700">
-          <div className="flex items-center justify-around gap-2 w-full">
+        <th colSpan={6} className="p-2 text-white border-r border-gray-700">
+          <div className="flex items-center justify-around gap-1 w-full">
             {["Madrugada", "Manha", "Tarde", "Noite"].map((period) => (
               <div
                 key={period}
@@ -110,18 +110,18 @@ export function TableHeader({
                 onClick={() => onPeriodClick(period.toLowerCase())}
               >
                 {period === "Madrugada" && (
-                  <Moon className="w-8 h-8 text-blue-300 mb-2" />
+                  <Moon className="w-5 h-5 text-blue-300 mb-1" />
                 )}
                 {period === "Manha" && (
-                  <Sunrise className="w-8 h-8 text-yellow-300 mb-2" />
+                  <Sunrise className="w-5 h-5 text-yellow-300 mb-1" />
                 )}
                 {period === "Tarde" && (
-                  <Sun className="w-8 h-8 text-yellow-500 mb-2" />
+                  <Sun className="w-5 h-5 text-yellow-500 mb-1" />
                 )}
                 {period === "Noite" && (
-                  <Sunset className="w-8 h-8 text-orange-500 mb-2" />
+                  <Sunset className="w-5 h-5 text-orange-500 mb-1" />
                 )}
-                <span>{period}</span>
+                <span className="text-xs">{period}</span>
               </div>
             ))}
           </div>

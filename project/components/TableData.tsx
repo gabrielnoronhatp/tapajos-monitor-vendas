@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import "@/styles/globals.css";
 import { TableHeader } from "./TableHeader";
 
-  type StoreData = {
+type StoreData = {
   idempresaint: number;
   loja: string;
   hora: number;
@@ -53,7 +53,7 @@ export function TableData() {
     }
 
     fetchData();
-    const intervalId = setInterval(fetchData, 1000);
+    const intervalId = setInterval(fetchData, 30000); // 30 seconds
 
     return () => clearInterval(intervalId);
   }, []);
@@ -74,7 +74,7 @@ export function TableData() {
     }
 
     fetchDataByBandeira();
-    const intervalId = setInterval(fetchDataByBandeira, 1000);
+    const intervalId = setInterval(fetchDataByBandeira, 30000); // 30 seconds
 
     return () => clearInterval(intervalId);
   }, []);

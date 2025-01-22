@@ -21,8 +21,8 @@ export function Navbar() {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [vendaTotal, setVendaTotal] = useState<number | null>(null);
-  const [devolucoes, setDevolucoes] = useState<number | null>(null);
+  const [vendaTotal, setVendaTotal] = useState(null);
+  const [devolucoes, setDevolucoes] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -44,7 +44,7 @@ export function Navbar() {
     }
 
     fetchData();
-    const interval = setInterval(fetchData, 10000);
+    const interval = setInterval(fetchData, 30000);
 
     return () => clearInterval(interval);
   }, []);
@@ -64,7 +64,7 @@ export function Navbar() {
         sales: Math.floor(Math.random() * 1000),
         returns: Math.floor(Math.random() * 1000),
       });
-    }, 1000);
+    }, 30000);
 
     return () => clearInterval(statsTimer);
   }, []);
@@ -100,7 +100,7 @@ export function Navbar() {
             <div className="text-white text-1xl font-semibold">Vendas</div>
             
             <div className="text-white text-3xl font-bold">
-              {vendaTotal !== null ? vendaTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) : 'Loading...'}
+              {vendaTotal !== null ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(parseFloat(vendaTotal)) : 'Loading...'}
             </div>
           </div>
 
@@ -108,7 +108,7 @@ export function Navbar() {
           <div className="text-center">
             <div className="text-white text-1xl font-semibold">Devoluções</div>
             <div className="text-white text-3xl font-bold">
-              {devolucoes}
+              {devolucoes !== null ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(parseFloat(devolucoes)) : 'Loading...'}
             </div>
           </div>
         </div>
