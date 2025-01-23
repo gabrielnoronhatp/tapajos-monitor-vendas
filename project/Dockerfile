@@ -25,7 +25,7 @@ COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
 
 # Definir a porta do contêiner
-EXPOSE 3000
+EXPOSE 80
 
 # Comando para iniciar o servidor Next.js
 CMD ["npm", "start"]
