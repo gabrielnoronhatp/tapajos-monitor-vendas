@@ -20,7 +20,7 @@ const config:any = {
 export const dynamic = 'force-static'
 export async function GET(req: NextRequest) {
     try {
-        const filePath = path.join('/mnt', 'realtime-app-database', 'sales_db.json');
+        const filePath = path.join('/mnt', 'realtime-app-database', 'sales_db', 'db_sales_by_hour.json');
         
         if (!fs.existsSync(filePath)) {
             throw new Error('Arquivo JSON não encontrado');
