@@ -59,7 +59,7 @@ export function TableData() {
     }
 
     fetchData();
-    const intervalId = setInterval(fetchData, 20000); // 30 seconds
+    const intervalId = setInterval(fetchData, 1000); 
 
     return () => clearInterval(intervalId);
   }, []);
