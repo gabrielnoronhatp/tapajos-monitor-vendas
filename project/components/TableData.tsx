@@ -41,9 +41,15 @@ export function TableData() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("/api/fetchData");
+        const response = await fetch('/api/fetchData', {
+          method: 'GET',
+          headers: {
+            'Cache-Control': 'no-store',
+          },
+        });
+        
         const result = await response.json();
-        console.log("patam ", result);
+      
         setData(result);
       } catch (err: any) {
         setError(err.message);
@@ -53,7 +59,7 @@ export function TableData() {
     }
 
     fetchData();
-    const intervalId = setInterval(fetchData, 30000); // 30 seconds
+    const intervalId = setInterval(fetchData, 20000); // 30 seconds
 
     return () => clearInterval(intervalId);
   }, []);
@@ -61,7 +67,12 @@ export function TableData() {
   useEffect(() => {
     async function fetchDataByBandeira() {
       try {
-        const response = await fetch("/api/fetchDataByBandeira");
+        const response = await fetch('/api/fetchDataByBandeira', {
+          method: 'GET',
+          headers: {
+            'Cache-Control': 'no-store',
+          },
+        });
         if (!response.ok) {
           throw new Error("Erro ao buscar dados por bandeira");
         }
@@ -74,7 +85,7 @@ export function TableData() {
     }
 
     fetchDataByBandeira();
-    const intervalId = setInterval(fetchDataByBandeira, 30000); // 30 seconds
+    const intervalId = setInterval(fetchDataByBandeira, 20000); // 30 seconds
 
     return () => clearInterval(intervalId);
   }, []);

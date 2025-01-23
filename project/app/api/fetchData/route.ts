@@ -23,7 +23,7 @@ function calcularSoma(array: any[], tipo: string): string {
     return soma.toFixed(2).replace('.', ',');
 }
 
-export const dynamic = 'force-static'
+
 export async function GET(req: NextRequest) {
     let pool;
     try {
