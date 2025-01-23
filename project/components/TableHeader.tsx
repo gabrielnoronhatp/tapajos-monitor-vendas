@@ -3,7 +3,6 @@
 import { Sun, Sunrise, Sunset, Moon } from "lucide-react";
 import Image from "next/image";
 import { flexAtcLogo, fbLogo, santoLogo, flexLogo } from "@/assets";
-export const dynamic = 'force-static'
 
 export function TableHeader({
   bandeira,

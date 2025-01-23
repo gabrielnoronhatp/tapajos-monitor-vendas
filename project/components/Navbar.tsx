@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-export const dynamic = 'force-static'
+
 type Stats = {
   sales: number;
   returns: number;

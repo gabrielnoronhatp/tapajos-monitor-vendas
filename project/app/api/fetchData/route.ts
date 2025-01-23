@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import sql from 'mssql';
 
 
+
 const config:any = {
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
@@ -22,6 +23,7 @@ function calcularSoma(array: any[], tipo: string): string {
     return soma.toFixed(2).replace('.', ',');
 }
 
+export const dynamic = 'force-static'
 export async function GET(req: NextRequest) {
     let pool;
     try {

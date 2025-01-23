@@ -26,7 +26,6 @@ const bandeiras = [
   "Flex Farma",
 ];
 const ITEMS_PER_BANDEIRA = 8;
-export const dynamic = 'force-static'
 
 export function TableData() {
   const [data, setData] = useState<any[]>([]);

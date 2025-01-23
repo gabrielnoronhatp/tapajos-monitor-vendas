@@ -34,6 +34,7 @@ function extractBandeira(loja: string): string | null {
     return match ? match[1] : null;
 }
 
+export const dynamic = 'force-static'
 export async function GET(req: NextRequest) {
     let pool;
     try {
