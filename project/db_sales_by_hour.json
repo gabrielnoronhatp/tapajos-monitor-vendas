@@ -1,0 +1,7394 @@
+[
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 6,
+    "valor": "119.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 7,
+    "valor": "731.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 8,
+    "valor": "12595.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 9,
+    "valor": "1017.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 10,
+    "valor": "1067.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 11,
+    "valor": "3403.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 12,
+    "valor": "1120.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 13,
+    "valor": "775.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 14,
+    "valor": "15.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 7,
+    "valor": "1251.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 8,
+    "valor": "906.34",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 9,
+    "valor": "4611.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 10,
+    "valor": "7152.16",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 11,
+    "valor": "4340.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 12,
+    "valor": "3420.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 13,
+    "valor": "1037.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 14,
+    "valor": "902.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 7,
+    "valor": "661.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 8,
+    "valor": "3227.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 9,
+    "valor": "423.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 10,
+    "valor": "826.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 11,
+    "valor": "468.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 12,
+    "valor": "223.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 13,
+    "valor": "48.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 14,
+    "valor": "113.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 7,
+    "valor": "239.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 8,
+    "valor": "97.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 9,
+    "valor": "825.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 10,
+    "valor": "385.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 11,
+    "valor": "1016.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 12,
+    "valor": "1533.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 13,
+    "valor": "831.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 61,
+    "loja": "0061-Flex Cidade de Deus",
+    "hora": 14,
+    "valor": "240.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 6,
+    "valor": "34.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 7,
+    "valor": "173.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 8,
+    "valor": "942.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 9,
+    "valor": "325.16",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 10,
+    "valor": "1509.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 11,
+    "valor": "338.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 12,
+    "valor": "635.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 13,
+    "valor": "260.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 67,
+    "loja": "0067- Atacad\u00e3o Flex Rio",
+    "hora": 14,
+    "valor": "87.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 7,
+    "valor": "767.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 8,
+    "valor": "464.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 9,
+    "valor": "2513.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 10,
+    "valor": "1782.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 11,
+    "valor": "4197.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 12,
+    "valor": "1881.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 13,
+    "valor": "711.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 14,
+    "valor": "1277.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 7,
+    "valor": "56.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 8,
+    "valor": "141.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 9,
+    "valor": "1188.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 10,
+    "valor": "1357.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 11,
+    "valor": "2570.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 12,
+    "valor": "1419.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 13,
+    "valor": "2408.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 14,
+    "valor": "374.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 7,
+    "valor": "209.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 8,
+    "valor": "337.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 9,
+    "valor": "1322.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 10,
+    "valor": "1115.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 11,
+    "valor": "1164.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 12,
+    "valor": "574.52",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 13,
+    "valor": "392.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 14,
+    "valor": "210.63",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 7,
+    "valor": "59.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 8,
+    "valor": "513.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 9,
+    "valor": "1168.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 10,
+    "valor": "498.91",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 11,
+    "valor": "1346.02",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 12,
+    "valor": "214.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 13,
+    "valor": "376.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 107,
+    "loja": "0107- FB 7 de Setembro",
+    "hora": 14,
+    "valor": "34.24",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 7,
+    "valor": "223.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 8,
+    "valor": "45.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 9,
+    "valor": "276.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 10,
+    "valor": "411.53",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 11,
+    "valor": "195.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 12,
+    "valor": "203.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 13,
+    "valor": "194.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 110,
+    "loja": "0110- FB Autaz Mirim",
+    "hora": 14,
+    "valor": "247.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 7,
+    "valor": "41.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 8,
+    "valor": "608.63",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 9,
+    "valor": "283.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 10,
+    "valor": "342.75",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 11,
+    "valor": "277.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 12,
+    "valor": "490.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 13,
+    "valor": "159.75",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 111,
+    "loja": "0111- FB Nova Esperanca",
+    "hora": 14,
+    "valor": "313.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 112,
+    "loja": "0112- FB Nilton Lins",
+    "hora": 8,
+    "valor": "662.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 112,
+    "loja": "0112- FB Nilton Lins",
+    "hora": 9,
+    "valor": "143.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 112,
+    "loja": "0112- FB Nilton Lins",
+    "hora": 10,
+    "valor": "544.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 112,
+    "loja": "0112- FB Nilton Lins",
+    "hora": 11,
+    "valor": "332.24",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 112,
+    "loja": "0112- FB Nilton Lins",
+    "hora": 12,
+    "valor": "241.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 112,
+    "loja": "0112- FB Nilton Lins",
+    "hora": 13,
+    "valor": "140.71",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 7,
+    "valor": "468.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 8,
+    "valor": "236.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 9,
+    "valor": "481.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 10,
+    "valor": "1498.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 11,
+    "valor": "1372.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 12,
+    "valor": "236.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 13,
+    "valor": "730.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 113,
+    "loja": "0113- FB Zumbi",
+    "hora": 14,
+    "valor": "510.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 7,
+    "valor": "134.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 8,
+    "valor": "170.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 9,
+    "valor": "579.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 10,
+    "valor": "550.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 11,
+    "valor": "1001.70",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 12,
+    "valor": "510.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 13,
+    "valor": "1115.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 115,
+    "loja": "0115- FB Tancredo Neves",
+    "hora": 14,
+    "valor": "19.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 7,
+    "valor": "173.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 8,
+    "valor": "283.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 9,
+    "valor": "189.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 10,
+    "valor": "65.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 11,
+    "valor": "722.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 12,
+    "valor": "777.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 13,
+    "valor": "147.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 116,
+    "loja": "0116- FB Paraiba",
+    "hora": 14,
+    "valor": "7.53",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 7,
+    "valor": "145.50",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 8,
+    "valor": "388.16",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 9,
+    "valor": "59.85",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 11,
+    "valor": "61.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 12,
+    "valor": "218.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 13,
+    "valor": "55.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 117,
+    "loja": "0117- FB SJ Tadeu",
+    "hora": 14,
+    "valor": "105.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 7,
+    "valor": "205.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 8,
+    "valor": "44.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 9,
+    "valor": "272.85",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 10,
+    "valor": "449.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 11,
+    "valor": "638.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 12,
+    "valor": "246.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 119,
+    "loja": "0119- FB Pac Alvorada",
+    "hora": 13,
+    "valor": "96.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 7,
+    "valor": "132.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 8,
+    "valor": "269.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 9,
+    "valor": "364.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 10,
+    "valor": "720.53",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 11,
+    "valor": "1437.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 12,
+    "valor": "607.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 13,
+    "valor": "419.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 120,
+    "loja": "0120- FB Alvorada",
+    "hora": 14,
+    "valor": "275.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 8,
+    "valor": "154.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 9,
+    "valor": "195.52",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 10,
+    "valor": "1235.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 11,
+    "valor": "475.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 12,
+    "valor": "329.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 13,
+    "valor": "676.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 124,
+    "loja": "0124- FB DB Nova Cidade",
+    "hora": 14,
+    "valor": "60.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 7,
+    "valor": "1039.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 8,
+    "valor": "626.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 9,
+    "valor": "1806.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 10,
+    "valor": "850.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 11,
+    "valor": "1660.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 12,
+    "valor": "2795.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 13,
+    "valor": "1083.43",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 125,
+    "loja": "0125- FB Boulevard",
+    "hora": 14,
+    "valor": "257.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 0,
+    "valor": "290.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 1,
+    "valor": "246.11",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 2,
+    "valor": "16.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 3,
+    "valor": "25.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 4,
+    "valor": "46.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 5,
+    "valor": "154.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 6,
+    "valor": "445.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 7,
+    "valor": "160.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 8,
+    "valor": "221.16",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 9,
+    "valor": "622.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 10,
+    "valor": "809.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 11,
+    "valor": "1081.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 12,
+    "valor": "2233.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 13,
+    "valor": "846.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 126,
+    "loja": "0126- FB Darcy Vargas",
+    "hora": 14,
+    "valor": "4.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 7,
+    "valor": "353.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 8,
+    "valor": "902.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 9,
+    "valor": "76.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 10,
+    "valor": "164.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 11,
+    "valor": "371.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 12,
+    "valor": "456.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 13,
+    "valor": "186.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 127,
+    "loja": "0127- FB Petropolis",
+    "hora": 14,
+    "valor": "41.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 7,
+    "valor": "329.70",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 8,
+    "valor": "629.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 9,
+    "valor": "580.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 10,
+    "valor": "422.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 11,
+    "valor": "2012.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 12,
+    "valor": "462.26",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 13,
+    "valor": "478.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 128,
+    "loja": "0128- FB Eduardo Ribeiro",
+    "hora": 14,
+    "valor": "50.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 7,
+    "valor": "104.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 8,
+    "valor": "31.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 9,
+    "valor": "422.24",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 10,
+    "valor": "485.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 11,
+    "valor": "985.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 12,
+    "valor": "729.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 13,
+    "valor": "170.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 129,
+    "loja": "0129- FB Max Teixeira",
+    "hora": 14,
+    "valor": "29.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 7,
+    "valor": "664.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 8,
+    "valor": "321.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 9,
+    "valor": "574.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 10,
+    "valor": "847.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 11,
+    "valor": "1713.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 12,
+    "valor": "653.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 13,
+    "valor": "342.52",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 130,
+    "loja": "0130- FB Emporium Roma",
+    "hora": 14,
+    "valor": "1150.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 7,
+    "valor": "612.92",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 8,
+    "valor": "136.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 9,
+    "valor": "308.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 10,
+    "valor": "362.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 11,
+    "valor": "304.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 12,
+    "valor": "656.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 13,
+    "valor": "223.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 14,
+    "valor": "189.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 7,
+    "valor": "185.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 8,
+    "valor": "487.77",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 9,
+    "valor": "925.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 10,
+    "valor": "1230.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 11,
+    "valor": "1463.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 12,
+    "valor": "670.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 13,
+    "valor": "230.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 132,
+    "loja": "0132- FB Torquato",
+    "hora": 14,
+    "valor": "371.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 7,
+    "valor": "224.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 8,
+    "valor": "410.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 9,
+    "valor": "765.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 10,
+    "valor": "271.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 11,
+    "valor": "265.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 12,
+    "valor": "490.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 13,
+    "valor": "305.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 133,
+    "loja": "0133- FB Cidade Nova PAC",
+    "hora": 14,
+    "valor": "376.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 7,
+    "valor": "151.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 8,
+    "valor": "611.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 9,
+    "valor": "294.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 10,
+    "valor": "525.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 11,
+    "valor": "56.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 12,
+    "valor": "389.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 13,
+    "valor": "327.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 135,
+    "loja": "0135- FB Compensa",
+    "hora": 14,
+    "valor": "59.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 6,
+    "valor": "8.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 7,
+    "valor": "220.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 8,
+    "valor": "1325.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 9,
+    "valor": "1029.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 10,
+    "valor": "1506.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 11,
+    "valor": "2007.70",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 12,
+    "valor": "1118.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 13,
+    "valor": "1201.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 14,
+    "valor": "543.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 7,
+    "valor": "597.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 8,
+    "valor": "517.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 9,
+    "valor": "1824.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 10,
+    "valor": "966.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 11,
+    "valor": "1002.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 12,
+    "valor": "357.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 13,
+    "valor": "2538.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 7,
+    "valor": "105.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 8,
+    "valor": "120.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 9,
+    "valor": "186.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 10,
+    "valor": "265.71",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 11,
+    "valor": "267.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 12,
+    "valor": "268.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 138,
+    "loja": "0138- FB Av dasTorres",
+    "hora": 13,
+    "valor": "143.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 7,
+    "valor": "222.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 8,
+    "valor": "443.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 9,
+    "valor": "559.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 10,
+    "valor": "554.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 11,
+    "valor": "503.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 12,
+    "valor": "450.34",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 13,
+    "valor": "317.91",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 14,
+    "valor": "169.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 7,
+    "valor": "294.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 8,
+    "valor": "712.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 9,
+    "valor": "1671.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 10,
+    "valor": "3217.92",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 11,
+    "valor": "2546.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 12,
+    "valor": "964.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 13,
+    "valor": "2187.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 14,
+    "valor": "116.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 7,
+    "valor": "41.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 8,
+    "valor": "153.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 9,
+    "valor": "99.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 10,
+    "valor": "755.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 11,
+    "valor": "507.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 12,
+    "valor": "497.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 13,
+    "valor": "504.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 17,
+    "loja": "0017-Flex Santo Antonio",
+    "hora": 14,
+    "valor": "479.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 7,
+    "valor": "764.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 8,
+    "valor": "689.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 9,
+    "valor": "1117.53",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 10,
+    "valor": "969.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 11,
+    "valor": "761.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 12,
+    "valor": "1469.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 13,
+    "valor": "845.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 14,
+    "valor": "236.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 7,
+    "valor": "230.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 8,
+    "valor": "333.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 9,
+    "valor": "396.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 10,
+    "valor": "548.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 11,
+    "valor": "795.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 12,
+    "valor": "1054.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 13,
+    "valor": "401.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 49,
+    "loja": "0049-Flex Djalma Batista",
+    "hora": 14,
+    "valor": "131.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 7,
+    "valor": "168.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 8,
+    "valor": "170.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 9,
+    "valor": "489.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 10,
+    "valor": "363.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 11,
+    "valor": "409.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 12,
+    "valor": "255.52",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 13,
+    "valor": "1017.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 50,
+    "loja": "0050-Flex Suelen Costa",
+    "hora": 14,
+    "valor": "2.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 7,
+    "valor": "122.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 8,
+    "valor": "381.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 9,
+    "valor": "1048.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 10,
+    "valor": "457.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 11,
+    "valor": "961.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 12,
+    "valor": "331.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 13,
+    "valor": "123.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 55,
+    "loja": "0055-Flex Betania",
+    "hora": 14,
+    "valor": "112.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 7,
+    "valor": "55.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 8,
+    "valor": "304.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 9,
+    "valor": "226.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 10,
+    "valor": "508.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 11,
+    "valor": "228.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 12,
+    "valor": "627.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 13,
+    "valor": "2112.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 60,
+    "loja": "0060-Flex Japiim Doberman",
+    "hora": 14,
+    "valor": "111.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 8,
+    "valor": "80.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 9,
+    "valor": "127.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 10,
+    "valor": "442.02",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 11,
+    "valor": "2263.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 12,
+    "valor": "2576.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 13,
+    "valor": "1488.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 14,
+    "valor": "259.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 7,
+    "valor": "34.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 8,
+    "valor": "513.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 9,
+    "valor": "378.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 10,
+    "valor": "319.75",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 11,
+    "valor": "169.43",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 12,
+    "valor": "179.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 7,
+    "loja": "0007-STR Nova Era",
+    "hora": 13,
+    "valor": "207.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 10,
+    "loja": "0010-STR Convenio",
+    "hora": 11,
+    "valor": "1442.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 10,
+    "loja": "0010-STR Convenio",
+    "hora": 12,
+    "valor": "991.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 10,
+    "loja": "0010-STR Convenio",
+    "hora": 13,
+    "valor": "980.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 7,
+    "valor": "659.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 8,
+    "valor": "652.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 9,
+    "valor": "767.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 10,
+    "valor": "1081.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 11,
+    "valor": "2493.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 12,
+    "valor": "1452.52",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 13,
+    "valor": "1624.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 14,
+    "valor": "605.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 0,
+    "valor": "984.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 1,
+    "valor": "878.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 2,
+    "valor": "866.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 3,
+    "valor": "192.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 4,
+    "valor": "187.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 5,
+    "valor": "59.76",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 6,
+    "valor": "221.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 7,
+    "valor": "1031.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 8,
+    "valor": "557.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 9,
+    "valor": "1728.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 10,
+    "valor": "1440.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 11,
+    "valor": "3739.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 12,
+    "valor": "1581.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 13,
+    "valor": "1699.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 14,
+    "valor": "552.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 7,
+    "valor": "1230.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 8,
+    "valor": "438.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 9,
+    "valor": "1830.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 10,
+    "valor": "1028.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 11,
+    "valor": "812.53",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 12,
+    "valor": "495.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 13,
+    "valor": "993.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 14,
+    "valor": "35.70",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 7,
+    "valor": "209.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 8,
+    "valor": "298.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 9,
+    "valor": "583.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 10,
+    "valor": "887.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 11,
+    "valor": "667.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 12,
+    "valor": "599.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 13,
+    "valor": "1275.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 20,
+    "loja": "0020-STR Sao Jose",
+    "hora": 14,
+    "valor": "517.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 0,
+    "valor": "968.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 1,
+    "valor": "570.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 2,
+    "valor": "159.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 3,
+    "valor": "80.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 4,
+    "valor": "129.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 5,
+    "valor": "500.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 6,
+    "valor": "566.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 7,
+    "valor": "592.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 8,
+    "valor": "531.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 9,
+    "valor": "835.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 10,
+    "valor": "915.24",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 11,
+    "valor": "1225.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 12,
+    "valor": "744.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 13,
+    "valor": "501.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 14,
+    "valor": "446.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 22,
+    "loja": "0022-STR Grande Circular",
+    "hora": 9,
+    "valor": "11.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 22,
+    "loja": "0022-STR Grande Circular",
+    "hora": 10,
+    "valor": "651.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 22,
+    "loja": "0022-STR Grande Circular",
+    "hora": 11,
+    "valor": "656.81",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 22,
+    "loja": "0022-STR Grande Circular",
+    "hora": 12,
+    "valor": "1053.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 22,
+    "loja": "0022-STR Grande Circular",
+    "hora": 13,
+    "valor": "543.53",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 22,
+    "loja": "0022-STR Grande Circular",
+    "hora": 14,
+    "valor": "321.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 7,
+    "valor": "260.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 8,
+    "valor": "996.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 9,
+    "valor": "634.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 10,
+    "valor": "919.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 11,
+    "valor": "1155.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 12,
+    "valor": "316.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 13,
+    "valor": "542.75",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 23,
+    "loja": "0023-STR Sao Jorge",
+    "hora": 14,
+    "valor": "130.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 7,
+    "valor": "253.71",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 8,
+    "valor": "964.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 9,
+    "valor": "1391.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 10,
+    "valor": "1051.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 11,
+    "valor": "1406.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 12,
+    "valor": "2987.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 24,
+    "loja": "0024-STR Planalto",
+    "hora": 13,
+    "valor": "442.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 7,
+    "valor": "256.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 8,
+    "valor": "487.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 9,
+    "valor": "136.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 10,
+    "valor": "145.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 11,
+    "valor": "593.77",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 12,
+    "valor": "432.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 13,
+    "valor": "42.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 25,
+    "loja": "0025-STR Posto Torquato",
+    "hora": 14,
+    "valor": "78.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 0,
+    "valor": "1643.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 1,
+    "valor": "575.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 2,
+    "valor": "328.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 3,
+    "valor": "284.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 4,
+    "valor": "62.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 5,
+    "valor": "126.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 6,
+    "valor": "444.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 7,
+    "valor": "903.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 8,
+    "valor": "2283.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 9,
+    "valor": "1821.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 10,
+    "valor": "4610.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 11,
+    "valor": "2621.71",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 12,
+    "valor": "4246.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 13,
+    "valor": "2072.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 14,
+    "valor": "200.63",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 7,
+    "valor": "414.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 8,
+    "valor": "527.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 9,
+    "valor": "641.92",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 10,
+    "valor": "597.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 11,
+    "valor": "1829.50",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 12,
+    "valor": "1744.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 13,
+    "valor": "610.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 27,
+    "loja": "0027-STR TopLife",
+    "hora": 14,
+    "valor": "152.54",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 7,
+    "valor": "122.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 8,
+    "valor": "108.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 9,
+    "valor": "472.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 10,
+    "valor": "698.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 11,
+    "valor": "516.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 12,
+    "valor": "290.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 13,
+    "valor": "636.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 14,
+    "valor": "175.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 6,
+    "valor": "22.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 7,
+    "valor": "702.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 8,
+    "valor": "1360.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 9,
+    "valor": "561.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 10,
+    "valor": "1055.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 11,
+    "valor": "1348.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 12,
+    "valor": "1077.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 13,
+    "valor": "822.75",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 29,
+    "loja": "0029-STR Coroado",
+    "hora": 14,
+    "valor": "86.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 7,
+    "valor": "460.11",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 8,
+    "valor": "10.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 9,
+    "valor": "155.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 10,
+    "valor": "987.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 11,
+    "valor": "513.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 12,
+    "valor": "794.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 30,
+    "loja": "0030-STR Ponta Negra Mall",
+    "hora": 13,
+    "valor": "61.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 6,
+    "valor": "16.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 7,
+    "valor": "437.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 8,
+    "valor": "629.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 9,
+    "valor": "1159.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 10,
+    "valor": "1482.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 11,
+    "valor": "648.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 12,
+    "valor": "2120.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 13,
+    "valor": "876.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 31,
+    "loja": "0031-STR Fca Mendes",
+    "hora": 14,
+    "valor": "775.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 0,
+    "valor": "453.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 1,
+    "valor": "212.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 2,
+    "valor": "8.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 3,
+    "valor": "297.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 5,
+    "valor": "278.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 6,
+    "valor": "508.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 7,
+    "valor": "626.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 8,
+    "valor": "2853.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 9,
+    "valor": "2359.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 10,
+    "valor": "2438.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 11,
+    "valor": "1539.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 12,
+    "valor": "2425.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 13,
+    "valor": "2232.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 32,
+    "loja": "0032-STR Efigenio Sales",
+    "hora": 14,
+    "valor": "129.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 33,
+    "loja": "0033-STR Manauara",
+    "hora": 10,
+    "valor": "1916.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 33,
+    "loja": "0033-STR Manauara",
+    "hora": 11,
+    "valor": "2398.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 33,
+    "loja": "0033-STR Manauara",
+    "hora": 12,
+    "valor": "4732.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 33,
+    "loja": "0033-STR Manauara",
+    "hora": 13,
+    "valor": "3280.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 33,
+    "loja": "0033-STR Manauara",
+    "hora": 14,
+    "valor": "2766.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 7,
+    "valor": "851.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 8,
+    "valor": "334.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 9,
+    "valor": "771.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 10,
+    "valor": "529.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 11,
+    "valor": "569.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 12,
+    "valor": "722.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 13,
+    "valor": "810.50",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 34,
+    "loja": "0034-STR Franceses",
+    "hora": 14,
+    "valor": "27.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 7,
+    "valor": "759.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 8,
+    "valor": "369.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 9,
+    "valor": "855.11",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 10,
+    "valor": "1220.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 11,
+    "valor": "1558.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 12,
+    "valor": "1738.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 13,
+    "valor": "978.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 35,
+    "loja": "0035-STR NORBERTO BRANDAO",
+    "hora": 14,
+    "valor": "537.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 7,
+    "valor": "585.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 8,
+    "valor": "663.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 9,
+    "valor": "1188.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 10,
+    "valor": "1804.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 11,
+    "valor": "1496.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 12,
+    "valor": "1131.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 13,
+    "valor": "643.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 36,
+    "loja": "0036-STR Parque Dez",
+    "hora": 14,
+    "valor": "135.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 7,
+    "valor": "60.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 8,
+    "valor": "199.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 9,
+    "valor": "1209.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 10,
+    "valor": "918.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 11,
+    "valor": "1118.50",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 12,
+    "valor": "1169.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 13,
+    "valor": "1928.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 40,
+    "loja": "0040-STR Tancredo Neves",
+    "hora": 14,
+    "valor": "563.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 7,
+    "valor": "157.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 8,
+    "valor": "1167.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 9,
+    "valor": "1101.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 10,
+    "valor": "588.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 11,
+    "valor": "1894.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 12,
+    "valor": "615.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 13,
+    "valor": "466.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 41,
+    "loja": "0041-STR Compensa",
+    "hora": 14,
+    "valor": "801.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 7,
+    "valor": "424.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 8,
+    "valor": "282.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 9,
+    "valor": "1506.92",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 10,
+    "valor": "2079.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 11,
+    "valor": "1535.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 12,
+    "valor": "1248.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 13,
+    "valor": "1879.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 43,
+    "loja": "0043-STR Manoa",
+    "hora": 14,
+    "valor": "41.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 6,
+    "valor": "5.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 7,
+    "valor": "338.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 8,
+    "valor": "1003.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 9,
+    "valor": "1469.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 10,
+    "valor": "880.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 11,
+    "valor": "1786.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 12,
+    "valor": "414.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 13,
+    "valor": "1256.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 14,
+    "valor": "198.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 7,
+    "valor": "53.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 8,
+    "valor": "292.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 9,
+    "valor": "683.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 10,
+    "valor": "600.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 11,
+    "valor": "995.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 12,
+    "valor": "1312.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 13,
+    "valor": "683.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 45,
+    "loja": "0045-STR Autaz Mirim II",
+    "hora": 14,
+    "valor": "658.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 7,
+    "valor": "409.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 8,
+    "valor": "592.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 9,
+    "valor": "1435.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 10,
+    "valor": "1156.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 11,
+    "valor": "1770.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 12,
+    "valor": "1382.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 13,
+    "valor": "514.52",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 46,
+    "loja": "0046-STR Paraiba",
+    "hora": 14,
+    "valor": "137.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 7,
+    "valor": "346.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 8,
+    "valor": "299.73",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 9,
+    "valor": "136.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 10,
+    "valor": "491.92",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 11,
+    "valor": "868.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 12,
+    "valor": "541.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 13,
+    "valor": "89.22",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 47,
+    "loja": "0047-STR Av.Torres",
+    "hora": 14,
+    "valor": "626.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 7,
+    "valor": "226.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 8,
+    "valor": "609.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 9,
+    "valor": "865.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 10,
+    "valor": "1296.81",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 11,
+    "valor": "971.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 12,
+    "valor": "818.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 13,
+    "valor": "729.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 48,
+    "loja": "0048-STR Alvorada",
+    "hora": 14,
+    "valor": "274.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 7,
+    "valor": "149.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 8,
+    "valor": "328.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 9,
+    "valor": "1351.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 10,
+    "valor": "1012.43",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 11,
+    "valor": "2373.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 12,
+    "valor": "751.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 13,
+    "valor": "709.85",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 53,
+    "loja": "0053-STR Laranjeiras",
+    "hora": 14,
+    "valor": "331.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 0,
+    "valor": "1093.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 1,
+    "valor": "710.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 2,
+    "valor": "271.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 3,
+    "valor": "144.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 4,
+    "valor": "109.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 5,
+    "valor": "179.38",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 6,
+    "valor": "503.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 7,
+    "valor": "571.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 8,
+    "valor": "1570.42",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 9,
+    "valor": "1678.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 10,
+    "valor": "1912.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 11,
+    "valor": "3130.80",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 12,
+    "valor": "2385.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 13,
+    "valor": "1068.26",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 14,
+    "valor": "195.89",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 7,
+    "valor": "175.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 8,
+    "valor": "378.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 9,
+    "valor": "372.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 10,
+    "valor": "517.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 11,
+    "valor": "625.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 12,
+    "valor": "594.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 13,
+    "valor": "711.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 56,
+    "loja": "0056-STR Darcy Vargas II",
+    "hora": 14,
+    "valor": "164.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 7,
+    "valor": "167.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 8,
+    "valor": "340.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 9,
+    "valor": "961.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 10,
+    "valor": "568.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 11,
+    "valor": "577.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 12,
+    "valor": "247.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 13,
+    "valor": "332.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 14,
+    "valor": "199.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 7,
+    "valor": "82.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 8,
+    "valor": "320.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 9,
+    "valor": "546.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 10,
+    "valor": "716.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 11,
+    "valor": "939.31",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 12,
+    "valor": "717.16",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 13,
+    "valor": "411.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 59,
+    "loja": "0059-STR Compensa Posto",
+    "hora": 14,
+    "valor": "275.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 0,
+    "valor": "77.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 7,
+    "valor": "418.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 8,
+    "valor": "172.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 9,
+    "valor": "526.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 10,
+    "valor": "997.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 11,
+    "valor": "1070.02",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 12,
+    "valor": "918.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 13,
+    "valor": "606.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 62,
+    "loja": "0062-STR Novo Aleixo",
+    "hora": 14,
+    "valor": "551.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 8,
+    "valor": "104.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 9,
+    "valor": "143.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 10,
+    "valor": "1178.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 11,
+    "valor": "820.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 12,
+    "valor": "1105.28",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 13,
+    "valor": "648.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 63,
+    "loja": "0063-STR Ponta Negra",
+    "hora": 14,
+    "valor": "237.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 0,
+    "valor": "1023.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 1,
+    "valor": "416.26",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 2,
+    "valor": "97.85",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 3,
+    "valor": "379.26",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 4,
+    "valor": "123.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 5,
+    "valor": "180.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 6,
+    "valor": "430.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 7,
+    "valor": "390.56",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 8,
+    "valor": "1065.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 9,
+    "valor": "3941.16",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 10,
+    "valor": "1895.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 11,
+    "valor": "2727.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 12,
+    "valor": "2559.77",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 13,
+    "valor": "1453.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 64,
+    "loja": "0064-STR MARIO SOUZA",
+    "hora": 14,
+    "valor": "78.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 6,
+    "valor": "15.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 7,
+    "valor": "211.92",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 8,
+    "valor": "539.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 9,
+    "valor": "881.34",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 10,
+    "valor": "1856.70",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 11,
+    "valor": "3235.90",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 12,
+    "valor": "550.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 13,
+    "valor": "1086.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 66,
+    "loja": "0066- STR ANA FREITAS",
+    "hora": 14,
+    "valor": "241.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 7,
+    "valor": "542.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 8,
+    "valor": "1112.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 9,
+    "valor": "1174.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 10,
+    "valor": "2477.51",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 11,
+    "valor": "1309.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 12,
+    "valor": "2703.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 13,
+    "valor": "994.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 14,
+    "valor": "929.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 6,
+    "valor": "58.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 7,
+    "valor": "241.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 8,
+    "valor": "379.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 9,
+    "valor": "233.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 10,
+    "valor": "1387.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 11,
+    "valor": "767.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 12,
+    "valor": "356.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 13,
+    "valor": "1011.02",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 14,
+    "valor": "5.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 0,
+    "valor": "830.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 1,
+    "valor": "519.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 2,
+    "valor": "209.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 3,
+    "valor": "33.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 4,
+    "valor": "318.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 5,
+    "valor": "159.93",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 6,
+    "valor": "243.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 7,
+    "valor": "803.84",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 8,
+    "valor": "1745.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 9,
+    "valor": "2072.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 10,
+    "valor": "2415.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 11,
+    "valor": "3193.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 12,
+    "valor": "1904.81",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 13,
+    "valor": "1465.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 14,
+    "valor": "236.37",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 7,
+    "valor": "8.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 8,
+    "valor": "252.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 9,
+    "valor": "388.55",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 10,
+    "valor": "335.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 11,
+    "valor": "420.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 12,
+    "valor": "1112.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 13,
+    "valor": "360.72",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 71,
+    "loja": "0071-STR Cidade de Deus",
+    "hora": 14,
+    "valor": "73.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 7,
+    "valor": "285.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 8,
+    "valor": "632.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 9,
+    "valor": "1199.64",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 10,
+    "valor": "1464.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 11,
+    "valor": "2116.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 12,
+    "valor": "3266.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 13,
+    "valor": "1621.20",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 80,
+    "loja": "0080-STR Eduard Ribeiro 2",
+    "hora": 14,
+    "valor": "565.81",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 0,
+    "valor": "433.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 1,
+    "valor": "32.87",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 2,
+    "valor": "47.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 3,
+    "valor": "161.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 4,
+    "valor": "16.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 6,
+    "valor": "426.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 7,
+    "valor": "1001.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 8,
+    "valor": "1354.14",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 9,
+    "valor": "1713.45",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 10,
+    "valor": "5490.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 11,
+    "valor": "3909.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 12,
+    "valor": "14511.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 13,
+    "valor": "9960.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 14,
+    "valor": "407.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 7,
+    "valor": "36.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 8,
+    "valor": "771.36",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 9,
+    "valor": "525.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 10,
+    "valor": "587.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 11,
+    "valor": "397.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 12,
+    "valor": "2060.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 84,
+    "loja": "0084-STR ECOLOGICA",
+    "hora": 13,
+    "valor": "638.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 7,
+    "valor": "95.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 8,
+    "valor": "1521.18",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 9,
+    "valor": "1713.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 10,
+    "valor": "2181.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 11,
+    "valor": "2389.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 12,
+    "valor": "2193.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 13,
+    "valor": "2862.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 87,
+    "loja": "0087-STR SHOP MILLENNIUM",
+    "hora": 14,
+    "valor": "453.81",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 7,
+    "valor": "310.29",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 8,
+    "valor": "883.85",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 9,
+    "valor": "454.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 10,
+    "valor": "889.77",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 11,
+    "valor": "1092.04",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 12,
+    "valor": "1866.63",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 13,
+    "valor": "1797.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 88,
+    "loja": "0088-STR AV TURISMO",
+    "hora": 14,
+    "valor": "53.02",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 7,
+    "valor": "140.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 8,
+    "valor": "182.27",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 9,
+    "valor": "315.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 10,
+    "valor": "1001.76",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 11,
+    "valor": "222.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 12,
+    "valor": "822.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 13,
+    "valor": "377.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 89,
+    "loja": "0089-STR AV TORRES II",
+    "hora": 14,
+    "valor": "21.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 7,
+    "valor": "723.50",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 8,
+    "valor": "264.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 9,
+    "valor": "1210.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 10,
+    "valor": "345.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 11,
+    "valor": "598.54",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 12,
+    "valor": "654.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 13,
+    "valor": "363.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 14,
+    "valor": "42.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 7,
+    "valor": "247.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 8,
+    "valor": "128.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 9,
+    "valor": "159.26",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 10,
+    "valor": "667.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 11,
+    "valor": "512.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 12,
+    "valor": "1339.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 96,
+    "loja": "0096-STR Duque de Caxias",
+    "hora": 13,
+    "valor": "180.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 6,
+    "valor": "94.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 7,
+    "valor": "1075.99",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 8,
+    "valor": "2803.83",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 9,
+    "valor": "3712.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 10,
+    "valor": "1929.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 11,
+    "valor": "3569.79",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 12,
+    "valor": "2486.15",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 13,
+    "valor": "1081.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 14,
+    "valor": "286.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 7,
+    "valor": "162.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 8,
+    "valor": "194.63",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 9,
+    "valor": "375.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 10,
+    "valor": "780.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 11,
+    "valor": "500.61",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 12,
+    "valor": "797.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 13,
+    "valor": "818.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 106,
+    "loja": "0106 - STR Franceses II",
+    "hora": 14,
+    "valor": "192.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 7,
+    "valor": "171.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 8,
+    "valor": "324.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 9,
+    "valor": "392.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 10,
+    "valor": "1049.94",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 11,
+    "valor": "163.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 12,
+    "valor": "512.26",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 13,
+    "valor": "519.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 6,
+    "valor": "245.12",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 7,
+    "valor": "908.06",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 8,
+    "valor": "698.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 9,
+    "valor": "1304.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 10,
+    "valor": "744.08",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 11,
+    "valor": "699.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 12,
+    "valor": "1369.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 13,
+    "valor": "456.09",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 14,
+    "valor": "87.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 8,
+    "valor": "415.86",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 9,
+    "valor": "1468.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 10,
+    "valor": "999.69",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 11,
+    "valor": "2562.03",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 12,
+    "valor": "1474.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 13,
+    "valor": "910.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 14,
+    "valor": "816.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 7,
+    "valor": "318.07",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 8,
+    "valor": "111.59",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 9,
+    "valor": "2267.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 10,
+    "valor": "537.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 11,
+    "valor": "590.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 12,
+    "valor": "302.24",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 13,
+    "valor": "225.34",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 147,
+    "loja": "0147- STR Nova Esperanca",
+    "hora": 14,
+    "valor": "78.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 7,
+    "valor": "549.75",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 8,
+    "valor": "315.71",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 9,
+    "valor": "392.63",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 10,
+    "valor": "799.17",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 11,
+    "valor": "478.24",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 12,
+    "valor": "960.33",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 13,
+    "valor": "125.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 148,
+    "loja": "0148- STR Autaz Mirim III",
+    "hora": 14,
+    "valor": "166.25",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 0,
+    "valor": "69.41",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 1,
+    "valor": "34.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 6,
+    "valor": "5.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 7,
+    "valor": "151.58",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 8,
+    "valor": "313.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 9,
+    "valor": "2411.05",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 10,
+    "valor": "3354.57",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 11,
+    "valor": "4422.21",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 12,
+    "valor": "4384.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 13,
+    "valor": "1219.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 14,
+    "valor": "285.67",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 7,
+    "valor": "102.44",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 8,
+    "valor": "131.48",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 9,
+    "valor": "1955.60",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 10,
+    "valor": "270.10",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 11,
+    "valor": "1837.13",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 12,
+    "valor": "335.95",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 13,
+    "valor": "365.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 14,
+    "valor": "117.65",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 8,
+    "valor": "3.98",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 9,
+    "valor": "235.82",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 10,
+    "valor": "553.19",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 11,
+    "valor": "1008.88",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 12,
+    "valor": "1017.66",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 13,
+    "valor": "390.23",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 14,
+    "valor": "102.30",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 7,
+    "valor": "147.47",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 8,
+    "valor": "137.78",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 9,
+    "valor": "189.46",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 10,
+    "valor": "240.49",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 11,
+    "valor": "629.35",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 12,
+    "valor": "125.76",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 13,
+    "valor": "323.01",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 143,
+    "loja": "0143-STR Ville Roy (BVA)",
+    "hora": 14,
+    "valor": "37.32",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 7,
+    "valor": "22.68",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 8,
+    "valor": "85.40",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 9,
+    "valor": "321.62",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 10,
+    "valor": "595.96",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 11,
+    "valor": "586.97",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 12,
+    "valor": "158.39",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 13,
+    "valor": "137.74",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 144,
+    "loja": "0144-STR M.Williams (BVA)",
+    "hora": 14,
+    "valor": "9.00",
+    "tipo": "V"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 9,
+    "valor": "-93.60",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 2,
+    "loja": "0002-Flex Joaquim Nabuco",
+    "hora": 13,
+    "valor": "-48.00",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 10,
+    "valor": "-14.57",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 11,
+    "loja": "0011-Flex Fuxico",
+    "hora": 12,
+    "valor": "-34.55",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Atacarejo (AM)",
+    "idempresaint": 19,
+    "loja": "0019-Flex B.S.Domingos",
+    "hora": 8,
+    "valor": "-11.99",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 103,
+    "loja": "0103- FB Djalma",
+    "hora": 11,
+    "valor": "-50.25",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 104,
+    "loja": "0104- FB Millennium Shop",
+    "hora": 9,
+    "valor": "-498.16",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 105,
+    "loja": "0105- FB Fca Mendes",
+    "hora": 12,
+    "valor": "-54.59",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 131,
+    "loja": "0131- FB Av Codajas",
+    "hora": 14,
+    "valor": "-43.98",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 136,
+    "loja": "0136- FB Carbraz",
+    "hora": 10,
+    "valor": "-17.80",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 11,
+    "valor": "-33.20",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 137,
+    "loja": "0137- FB Adrianopolis",
+    "hora": 13,
+    "valor": "-24.34",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 139,
+    "loja": "0139- FB Parque Dez",
+    "hora": 9,
+    "valor": "-18.57",
+    "tipo": "D"
+  },
+  {
+    "grupo": "FARMABEM (AM)",
+    "idempresaint": 140,
+    "loja": "0140- FB Japiim",
+    "hora": 10,
+    "valor": "-31.79",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Flex Farma",
+    "idempresaint": 37,
+    "loja": "0037-Flex 7 de Setembro",
+    "hora": 9,
+    "valor": "-25.00",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 6,
+    "loja": "0006-STR Am Shopping",
+    "hora": 10,
+    "valor": "-56.16",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 12,
+    "loja": "0012-STR AV Nilton Lins",
+    "hora": 11,
+    "valor": "-13.12",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 15,
+    "loja": "0015-STR Djalma Batista",
+    "hora": 10,
+    "valor": "-29.04",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 16,
+    "loja": "0016-STR Japiim",
+    "hora": 13,
+    "valor": "-36.11",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 21,
+    "loja": "0021-STR C.Nova",
+    "hora": 0,
+    "valor": "-32.39",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 1,
+    "valor": "-44.34",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 9,
+    "valor": "-71.27",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 26,
+    "loja": "0026-STR Boulevard",
+    "hora": 10,
+    "valor": "-58.99",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 28,
+    "loja": "0028-STR Novo Mundo",
+    "hora": 10,
+    "valor": "-29.61",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 44,
+    "loja": "0044-STR Nova Cidade",
+    "hora": 8,
+    "valor": "-297.34",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 54,
+    "loja": "0054-STR Av. Borba",
+    "hora": 10,
+    "valor": "-64.38",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 58,
+    "loja": "0058-STR Redencao",
+    "hora": 11,
+    "valor": "-10.28",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 9,
+    "valor": "-141.07",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 68,
+    "loja": "0068-STR Joao Valerio",
+    "hora": 13,
+    "valor": "-83.71",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 69,
+    "loja": "0069-STR MISUSHIRO P.10",
+    "hora": 8,
+    "valor": "-63.99",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 70,
+    "loja": "0070-STR Joaquim Nabuco",
+    "hora": 3,
+    "valor": "-55.52",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 6,
+    "valor": "-52.64",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 82,
+    "loja": "0082-STR FLAGSHIP",
+    "hora": 11,
+    "valor": "-185.96",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 90,
+    "loja": "0090-STR ADRIANOPOLIS",
+    "hora": 10,
+    "valor": "-202.58",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 102,
+    "loja": "0102-STR Dark Store",
+    "hora": 14,
+    "valor": "-220.00",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 9,
+    "valor": "-50.03",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 12,
+    "valor": "-63.63",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 114,
+    "loja": "0114- STR  C. Nova T3",
+    "hora": 13,
+    "valor": "-74.98",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 118,
+    "loja": "0118- STR Col Sto Antonio",
+    "hora": 12,
+    "valor": "-90.99",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (AM)",
+    "idempresaint": 121,
+    "loja": "0121- STR DB Sumauma",
+    "hora": 8,
+    "valor": "-75.26",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 10,
+    "valor": "-177.49",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 81,
+    "loja": "0081-STR Ataid Teive(BVA)",
+    "hora": 13,
+    "valor": "-39.99",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 97,
+    "loja": "0097-STR Cap. Julio (BVA)",
+    "hora": 11,
+    "valor": "-929.00",
+    "tipo": "D"
+  },
+  {
+    "grupo": "Santo Remedio (RR)",
+    "idempresaint": 142,
+    "loja": "0142-STR Cacari (BVA)",
+    "hora": 13,
+    "valor": "-191.27",
+    "tipo": "D"
+  }
+]
