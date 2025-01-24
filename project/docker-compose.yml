@@ -13,7 +13,9 @@ services:
       - NODE_ENV=production
       - HTTPS=true
     networks:
-      - app_network
+      - app_network 
+    volumes:
+      - /mnt/realtime-app-database:/mnt/realtime-app-database
 
 networks:
   app_network:
