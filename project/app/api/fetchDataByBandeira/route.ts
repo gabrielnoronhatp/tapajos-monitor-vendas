@@ -1,7 +1,8 @@
 // app/api/fetchDataByBandeira/route.ts
 
 import { NextRequest, NextResponse } from 'next/server';
-import sql from 'mssql';
+import fs from 'fs';
+import path from 'path';
 
 const config:any = {
     user: process.env.DB_USER,
@@ -36,87 +37,23 @@ function extractBandeira(loja: string): string | null {
 
 export const dynamic = 'force-static'
 export async function GET(req: NextRequest) {
-    let pool;
     try {
-        pool = await sql.connect(config);
-
-        const result = await pool.request().query(`
-            select grupo, hora, sum(valor) as valor
-            from (
-                select * from (
-                    select ge.descricao as grupo, 'e. Total' as hora, sum(v.ValTotVenda) as valor, 'V' as tipo
-                    from vendas v
-                    inner join empresas e on e.idempresa=v.idempresa
-                    inner join grupoempresa ge on ge.idgrupoempresa=e.idgrupoempresa
-                    where v.idempresaint < 5000 and dataemi = convert(date,getdate()) and datepart(hour,horaemi) <= datepart(hour,getdate())
-                    and v.cancelado=0
-                    group by ge.descricao, e.idempresaint, e.nomereduzido
-                    union all
-                    select ge.descricao, 'e. Total' as hora, sum(v.valor)*(-1) as valor, 'D' as tipo
-                    from devolucoesvendas v
-                    inner join empresas e on e.idempresa=v.idempresa
-                    inner join grupoempresa ge on ge.idgrupoempresa=e.idgrupoempresa
-                    where e.idempresaint < 5000 and dataemi = convert(date,getdate()) and datepart(hour,horaemi) <= datepart(hour,getdate())
-                    and v.cancelado=0
-                    group by ge.descricao, e.idempresaint, e.nomereduzido
-                ) tab1
-                union all
-                select * from (
-                    select ge.descricao as grupo,
-                        case
-                            when datepart(hour, horaemi) between 0 and 5 then 'a. Madrugada' 
-                            when datepart(hour, horaemi) between 6 and 11 then 'b. Manha'
-                            when datepart(hour, horaemi) between 12 and 17 then 'c. Tarde'
-                            when datepart(hour, horaemi) between 18 and 23 then 'd. Noite'
-                        end as hora,
-                        sum(v.ValTotVenda) as valor, 'V' as tipo
-                    from vendas v
-                    inner join empresas e on e.idempresa=v.idempresa
-                    inner join grupoempresa ge on ge.idgrupoempresa=e.idgrupoempresa
-                    where v.idempresaint < 5000 and dataemi = convert(date,getdate())
-                    and datepart(hour,horaemi) <= datepart(hour,getdate()) and v.cancelado=0
-                    group by ge.descricao,
-                        case
-                            when datepart(hour, horaemi) between 0 and 5 then 'a. Madrugada' 
-                            when datepart(hour, horaemi) between 6 and 11 then 'b. Manha'
-                            when datepart(hour, horaemi) between 12 and 17 then 'c. Tarde'
-                            when datepart(hour, horaemi) between 18 and 23 then 'd. Noite'
-                        end
-                    union all
-                    select
-                        ge.descricao,
-                        case
-                            when datepart(hour, horaemi) between 0 and 5 then 'a. Madrugada' 
-                            when datepart(hour, horaemi) between 6 and 11 then 'b. Manha'
-                            when datepart(hour, horaemi) between 12 and 17 then 'c. Tarde'
-                            when datepart(hour, horaemi) between 18 and 23 then 'd. Noite'
-                        end as hora,
-                        sum(v.valor)*(-1) as valor, 'D' as tipo
-                    from devolucoesvendas v
-                    inner join empresas e on e.idempresa=v.idempresa
-                    inner join grupoempresa ge on ge.idgrupoempresa=e.idgrupoempresa
-                    where e.idempresaint < 5000 and dataemi = convert(date,getdate())
-                    and datepart(hour,horaemi) <= datepart(hour,getdate()) and v.cancelado=0
-                    group by ge.descricao,
-                        case
-                            when datepart(hour, horaemi) between 0 and 5 then 'a. Madrugada'
-                            when datepart(hour, horaemi) between 6 and 11 then 'b. Manha'
-                            when datepart(hour, horaemi) between 12 and 17 then 'c. Tarde'
-                            when datepart(hour, horaemi) between 18 and 23 then 'd. Noite'
-                        end
-                ) tab2
-            ) tab group by grupo, hora order by grupo, hora
-        `);
-
-        const rows = result.recordset;
-
-        return NextResponse.json(rows);
-    } catch (err) {
-        console.error('Erro ao buscar dados:', err);
-        return NextResponse.json({ error: 'Erro ao buscar dados' }, { status: 500 });
-    } finally {
-        if (pool) {
-            await pool.close();
+        // Define o caminho do arquivo JSON
+        const filePath = path.join('/mnt', 'realtime-app-database', 'sales_db', 'db_sales_by_hour.json');
+        
+        // Verifica se o arquivo existe
+        if (!fs.existsSync(filePath)) {
+            throw new Error('Arquivo JSON não encontrado');
         }
+
+        // Lê o conteúdo do arquivo
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const data = JSON.parse(fileContent);
+
+        // Retorna o conteúdo do arquivo JSON
+        return NextResponse.json(data);
+    } catch (err) {
+        console.error('Erro ao ler o arquivo JSON:', err);
+        return NextResponse.json({ error: 'Erro ao ler o arquivo JSON' }, { status: 500 });
     }
 } 
