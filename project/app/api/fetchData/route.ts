@@ -1,6 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { NextRequest, NextResponse } from 'next/server';    
+const chokidar = require('chokidar');
 
 function calcularSoma(array: any[], tipo: string): string {
     const soma = array.reduce((acc, item) => {
@@ -9,28 +10,35 @@ function calcularSoma(array: any[], tipo: string): string {
     return soma.toFixed(2).replace('.', ',');
 }
 
+let cachedData: any = null;
+const filePath = path.join('/mnt', 'realtime-app-database', 'sales_db', 'db_sales_by_hour.json');
+
+const watcher = chokidar.watch(filePath);
+watcher.on('change', () => {
+    try {
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        cachedData = JSON.parse(fileContent);
+        console.log('Arquivo atualizado, cache recarregado.');
+    } catch (err) {
+        console.error('Erro ao atualizar o cache:', err);
+    }
+});
+
+// Endpoint para leitura
 export async function GET(req: NextRequest) {
     try {
-        //Aponte para
-        const filePath = path.join('/mnt', 'realtime-app-database', 'sales_db', 'db_sales_by_hour.json');
-        
-        // Verifica se o arquivo existe
-        if (!fs.existsSync(filePath)) {
-            throw new Error('Arquivo JSON não encontrado');
+        if (!cachedData) {
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+            cachedData = JSON.parse(fileContent);
         }
 
-        // Lê o conteúdo do arquivo
-        const fileContent = fs.readFileSync(filePath, 'utf8');
-        const rows = JSON.parse(fileContent);
+        const madrugada = cachedData.filter((item: any) => item.hora >= 0 && item.hora < 6);
+        const manha = cachedData.filter((item: any) => item.hora >= 6 && item.hora < 12);
+        const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
+        const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
-        // Organizar dados por período
-        const madrugada = rows.filter((item: any) => item.hora >= 0 && item.hora < 6);
-        const manha = rows.filter((item: any) => item.hora >= 6 && item.hora < 12);
-        const tarde = rows.filter((item: any) => item.hora >= 12 && item.hora < 18);
-        const noite = rows.filter((item: any) => item.hora >= 18 && item.hora <= 23);
-
-        const venda_total = calcularSoma(rows, 'V');
-        const devolucao_total = calcularSoma(rows, 'D');
+        const venda_total = calcularSoma(cachedData, 'V');
+        const devolucao_total = calcularSoma(cachedData, 'D');
 
         const resultData = {
             madrugada,
@@ -41,9 +49,11 @@ export async function GET(req: NextRequest) {
             devolucao_total,
         };
 
-        return NextResponse.json(resultData);
+        const response = NextResponse.json(resultData);
+        response.headers.set('Cache-Control', 'no-store');
+        return response;
     } catch (err) {
-        console.error('Erro ao ler o arquivo JSON:', err);
-        return NextResponse.json({ error: 'Erro ao ler o arquivo JSON' }, { status: 500 });
+        console.error('Erro ao processar a requisição:', err);
+        return NextResponse.json({ error: 'Erro interno' }, { status: 500 });
     }
 }

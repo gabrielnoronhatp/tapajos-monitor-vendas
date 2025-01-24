@@ -24,7 +24,11 @@ export async function GET(req: NextRequest) {
       
 
         // Retorna os dados organizados
-        return NextResponse.json(rows);
+        const response = NextResponse.json(rows);
+        response.headers.set('Cache-Control', 'no-store'); // Desabilita cache para garantir atualizações
+
+        return response;
+        
     } catch (err) {
         console.error('Erro ao ler o arquivo JSON:', err);
         return NextResponse.json({ error: 'Erro ao ler o arquivo JSON' }, { status: 500 });
