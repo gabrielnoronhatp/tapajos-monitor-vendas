@@ -21,8 +21,8 @@ export function Navbar() {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [vendaTotal, setVendaTotal] = useState(null);
-  const [devolucoes, setDevolucoes] = useState(null);
+  const [vendaTotal, setVendaTotal] = useState<number | null>(null);
+  const [devolucoes, setDevolucoes] = useState<number | null>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -44,7 +44,7 @@ export function Navbar() {
     }
 
     fetchData();
-    const interval = setInterval(fetchData, 30000);
+    const interval = setInterval(fetchData, 10000);
 
     return () => clearInterval(interval);
   }, []);
@@ -64,7 +64,7 @@ export function Navbar() {
         sales: Math.floor(Math.random() * 1000),
         returns: Math.floor(Math.random() * 1000),
       });
-    }, 30000);
+    }, 1000);
 
     return () => clearInterval(statsTimer);
   }, []);
@@ -77,42 +77,48 @@ export function Navbar() {
   });
 
   return (
-    <nav className="w-full bg-[#32959a] p-4">
-      <div className="max-w-7xl mx-auto flex flex-col items-center gap-4">
-        {/* Date */}
-        <div className="text-white text-lg font-semibold">
-          Manaus, {formattedDate}
-        </div>
+<nav className="w-full bg-[#32959a] p-4">
+  <div className="max-w-7xl mx-auto flex flex-col items-center gap-4">
+    {/* Date */}
+    <div className="text-white text-lg font-semibold">
+      Manaus, {formattedDate}
+    </div>
 
-        {/* Time */}
-        <div className="text-white text-4xl font-bold">
-          {time ? time.toLocaleTimeString('pt-BR', {
+    {/* Time */}
+    <div className="text-white text-4xl font-bold">
+      {time
+        ? time.toLocaleTimeString('pt-BR', {
             hour: '2-digit',
             minute: '2-digit',
             second: '2-digit',
-          }) : 'Loading...'}
-        </div>
+          })
+        : 'Loading...'}
+    </div>
 
-        {/* Stats */}
-        <div className="flex gap-12">
-          {/* Sales */}
-          <div className="text-center">
-            <div className="text-white text-1xl font-semibold">Vendas</div>
-            
-            <div className="text-white text-3xl font-bold">
-              {vendaTotal !== null ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(parseFloat(vendaTotal)) : 'Loading...'}
-            </div>
-          </div>
-
-          {/* Returns */}
-          <div className="text-center">
-            <div className="text-white text-1xl font-semibold">Devoluções</div>
-            <div className="text-white text-3xl font-bold">
-              {devolucoes !== null ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(parseFloat(devolucoes)) : 'Loading...'}
-            </div>
-          </div>
+    {/* Stats */}
+    <div className="flex gap-12">
+      {/* Sales */}
+      <div className="text-center">
+        <div className="text-white text-lg md:text-1xl font-semibold">Vendas</div>
+        <div className="text-white text-2xl md:text-3xl font-bold">
+          {vendaTotal !== null
+            ? vendaTotal.toLocaleString('pt-BR', {
+                style: 'currency',
+                currency: 'BRL',
+              })
+            : 'Loading...'}
         </div>
       </div>
-    </nav>
+
+      {/* Returns */}
+      <div className="text-center">
+        <div className="text-white text-lg md:text-1xl font-semibold">Devoluções</div>
+        <div className="text-white text-2xl md:text-3xl font-bold">
+          {devolucoes}
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
   );
 }
