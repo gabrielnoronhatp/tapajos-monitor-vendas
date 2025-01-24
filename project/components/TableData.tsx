@@ -301,7 +301,7 @@ export function TableData() {
                                   key={`${loja}-${hourRange}`}
                                   className="p-4 text-white border-r border-gray-700 text-center"
                                 >
-                                  {value.toFixed(2)}
+                                  {value}
                                 </td>
                               );
                             })}
