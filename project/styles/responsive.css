@@ -1,0 +1,21 @@
+/* Default styles for larger screens */
+.bandeira-details {
+  display: flex;
+}
+
+.bandeira-total {
+  display: block;
+}
+
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+  .bandeira-details {
+    display: none;
+  }
+
+  .bandeira-total {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+} 

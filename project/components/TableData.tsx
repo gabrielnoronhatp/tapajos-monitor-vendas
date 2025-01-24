@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 import "@/styles/globals.css";
 import { TableHeader } from "./TableHeader";
+import Image from 'next/image';
+import { flexAtcLogo, flexLogo, santoLogo } from "@/assets";
+import { fbLogo } from "@/assets";
 
 type StoreData = {
   idempresaint: number;
@@ -41,15 +44,15 @@ export function TableData() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('/api/fetchData', {
-          method: 'GET',
+        const response = await fetch("/api/fetchData", {
+          method: "GET",
           headers: {
-            'Cache-Control': 'no-store',
+            "Cache-Control": "no-store",
           },
         });
-        
+
         const result = await response.json();
-      
+
         setData(result);
       } catch (err: any) {
         setError(err.message);
@@ -59,7 +62,7 @@ export function TableData() {
     }
 
     fetchData();
-    const intervalId = setInterval(fetchData, 30000); 
+    const intervalId = setInterval(fetchData, 30000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -67,17 +70,17 @@ export function TableData() {
   useEffect(() => {
     async function fetchDataByBandeira() {
       try {
-        const response = await fetch('/api/fetchDataByBandeira', {
-          method: 'GET',
+        const response = await fetch("/api/fetchDataByBandeira", {
+          method: "GET",
           headers: {
-            'Cache-Control': 'no-store',
+            "Cache-Control": "no-store",
           },
         });
         if (!response.ok) {
           throw new Error("Erro ao buscar dados por bandeira");
         }
         const result = await response.json();
-        console.log("Dados por bandeira:", result);
+
         setBandeiraData(result);
       } catch (err) {
         console.error(err);
@@ -85,7 +88,7 @@ export function TableData() {
     }
 
     fetchDataByBandeira();
-    const intervalId = setInterval(fetchDataByBandeira, 1000); // 30 seconds
+    const intervalId = setInterval(fetchDataByBandeira, 30000); // 30 seconds
 
     return () => clearInterval(intervalId);
   }, []);
@@ -95,7 +98,7 @@ export function TableData() {
 
     const periods = ["madrugada", "manha", "tarde", "noite"];
 
-    periods.forEach((period:any) => {
+    periods.forEach((period: any) => {
       const periodData = data[period] || [];
 
       periodData.forEach((item: StoreData) => {
@@ -111,6 +114,21 @@ export function TableData() {
 
     setFilteredData(dataByBandeira);
   }, [data]);
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Define como "mobile" se a largura for menor ou igual a 768px
+    };
+
+    handleResize(); // Executa ao montar o componente
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const calculateTotalByPeriod = (stores: StoreData[], period: string) => {
     const periodHours = getPeriodHours(period);
@@ -179,6 +197,48 @@ export function TableData() {
           (item) => item.grupo === bandeira
         );
 
+        const totalPorBandeira = bandeiraTotals
+          .filter((item) => item.hora === "e. Total")
+          .reduce((acc, item) => acc + item.valor, 0);
+
+        const bandeiraImageMap: { [key: string]: any } = {
+          "FARMABEM (AM)": fbLogo ,
+          "Atacarejo (AM)": flexAtcLogo,
+          "Flex Farma": flexLogo,
+          "Santo Remedio (AM)": santoLogo,
+        };
+
+        const getImageForBandeira = (bandeira: string) => {
+          const imageName = bandeiraImageMap[bandeira];
+          if (!imageName) {
+            console.warn(`Imagem não encontrada para a bandeira: ${bandeira}`);
+            return "../assets/default-logo.png"; 
+          }
+          return imageName; 
+        };
+
+
+
+        if (isMobile) {
+
+          return (
+            <div key={bandeira} className="mb-4 text-center">
+          
+              <div className="flex justify-center items-center ">
+                <Image
+                  src={getImageForBandeira(bandeira)}
+                  width={200}
+                  height={200}
+                  alt={`Imagem para ${bandeira}`}
+                />
+              </div>
+              <div className="text-white font-bold">{bandeira}</div>
+              <div className="text-lg text-gray-200">
+                Total: R$ {totalPorBandeira.toFixed(2)}
+              </div>
+            </div>
+          );
+        }
         return (
           <div key={bandeira} className="flex justify-between items-start mb-8">
             <table className="w-full">
@@ -281,7 +341,7 @@ export function TableData() {
                 {new Intl.NumberFormat("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                }).format(stores.reduce((acc, store) => acc + store.valor, 0))}
+                }).format(totalPorBandeira)}
               </span>
             </div>
           </div>

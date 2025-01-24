@@ -11,17 +11,13 @@ function calcularSoma(array: any[], tipo: string): string {
 
 export async function GET(req: NextRequest) {
     try {
-        
-        
+        // Caminho absoluto para o arquivo JSON
         const filePath = path.join('/mnt', 'realtime-app-database', 'sales_db', 'db_sales_by_hour.json');
-        
-        // Verifica se o arquivo existe
-        if (!fs.existsSync(filePath)) {
-            throw new Error('Arquivo JSON não encontrado');
-        }
 
-        // Lê o conteúdo do arquivo
+        // Lê o conteúdo do arquivo de forma síncrona
         const fileContent = fs.readFileSync(filePath, 'utf8');
+
+        // Converte o conteúdo para um objeto JSON
         const rows = JSON.parse(fileContent);
 
         // Organizar dados por período
@@ -42,6 +38,7 @@ export async function GET(req: NextRequest) {
             devolucao_total,
         };
 
+        // Retorna os dados organizados
         return NextResponse.json(resultData);
     } catch (err) {
         console.error('Erro ao ler o arquivo JSON:', err);
