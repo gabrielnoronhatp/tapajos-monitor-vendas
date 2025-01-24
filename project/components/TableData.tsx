@@ -223,7 +223,7 @@ export function TableData() {
 
           return (
             <div key={bandeira} className="mb-4 text-center">
-          
+              {/* center image  */}
               <div className="flex justify-center items-center ">
                 <Image
                   src={getImageForBandeira(bandeira)}
@@ -234,7 +234,7 @@ export function TableData() {
               </div>
               <div className="text-white font-bold">{bandeira}</div>
               <div className="text-lg text-gray-200">
-                Total: R$ {totalPorBandeira.toFixed(2)}
+                Total: R$ {totalPorBandeira}
               </div>
             </div>
           );
@@ -301,7 +301,7 @@ export function TableData() {
                                   key={`${loja}-${hourRange}`}
                                   className="p-4 text-white border-r border-gray-700 text-center"
                                 >
-                                  {value.toFixed(2)}
+                                  {value}
                                 </td>
                               );
                             })}
