@@ -7,7 +7,7 @@ WORKDIR /app
 # Copiar arquivos do projeto
 COPY package.json package-lock.json ./
 RUN npm install --force
-RUN npm install  react-redux --force
+
 
 COPY . .
 
