@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "2006:3000"
+      - "2005:3000"
     restart: always
     environment:
       - VITE_API_URL=http://10.2.10.17:3001
