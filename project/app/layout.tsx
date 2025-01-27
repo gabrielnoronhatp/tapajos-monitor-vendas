@@ -1,3 +1,4 @@
+import ReduxProvider from '@/redux-provider';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
@@ -22,7 +23,11 @@ export default function RootLayout({
       <head>
             <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <ReduxProvider>
+          {children}
+        </ReduxProvider>
+      </body>
     </html>
   );
 }
