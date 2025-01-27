@@ -37,16 +37,17 @@ export async function GET(req: NextRequest) {
         const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
-        const venda_total = calcularSoma(cachedData, 'V');
-        const devolucao_total = calcularSoma(cachedData, 'D');
+        const valor_total_venda = cachedData.valor_total_venda; 
+        const valor_total_dev = cachedData.valor_total_dev; 
+     
 
         const resultData = {
             madrugada,
             manha,
             tarde,
             noite,
-            venda_total,
-            devolucao_total,
+            valor_total_venda,
+            valor_total_dev,
         };
 
         const response = NextResponse.json(resultData);

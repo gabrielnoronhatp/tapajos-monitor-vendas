@@ -21,8 +21,8 @@ export function Navbar() {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [vendaTotal, setVendaTotal] = useState<number | null>(null);
-  const [devolucoes, setDevolucoes] = useState<number | null>(null);
+  const [valorTotalVenda, setValorTotalVenda] = useState<number | null>(null);
+  const [valorTotalDev, setValorTotalDev] = useState<number | null>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -34,8 +34,8 @@ export function Navbar() {
         const result = await response.json();
         console.log('result', result);
         setData(result);
-        setVendaTotal(result.venda_total);
-        setDevolucoes(result.devolucao_total);
+        setValorTotalVenda(result.valor_total_venda);
+        setValorTotalDev(result.valor_total_dev);
       } catch (err: any) {
         setError(err.message);
       } finally {
@@ -101,8 +101,8 @@ export function Navbar() {
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Vendas</div>
         <div className="text-white text-2xl md:text-3xl font-bold">
-          {vendaTotal !== null
-            ? vendaTotal.toLocaleString('pt-BR', {
+          {valorTotalVenda !== null
+            ? valorTotalVenda.toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
               })
@@ -114,7 +114,12 @@ export function Navbar() {
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Devoluções</div>
         <div className="text-white text-2xl md:text-3xl font-bold">
-          {devolucoes}
+          {valorTotalDev !== null
+            ? valorTotalDev.toLocaleString('pt-BR', {
+                style: 'currency',
+                currency: 'BRL',
+              })
+            : 'Loading...'}
         </div>
       </div>
     </div>
