@@ -32,7 +32,7 @@ export function Navbar() {
           throw new Error('Erro ao buscar dados');
         }
         const result = await response.json();
-        console.log('result', result);
+     
         setData(result);
         setValorTotalVenda(result.valor_total_venda ?? null);
         setValorTotalDev(result.valor_total_dev ?? null);
@@ -57,7 +57,7 @@ export function Navbar() {
     return () => clearInterval(timer);
   }, []);
 
-  // Simulating real-time stats updates
+
   useEffect(() => {
     const statsTimer = setInterval(() => {
       setStats({

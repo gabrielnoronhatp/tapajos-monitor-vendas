@@ -15,7 +15,7 @@ export default function TokenPage() {
       window.location.pathname.split("/").pop());
 
   useEffect(() => {
-    console.log("token", token);
+  
     if (token) {
       try {
         const decodedToken: any = jwt.decode(token as string);

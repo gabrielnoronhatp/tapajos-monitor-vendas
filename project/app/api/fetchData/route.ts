@@ -18,7 +18,6 @@ watcher.on('change', () => {
     try {
         const fileContent = fs.readFileSync(filePath, 'utf8');
         cachedData = JSON.parse(fileContent);
-        console.log('Arquivo atualizado, cache recarregado.');
     } catch (err) {
         console.error('Erro ao atualizar o cache:', err);
     }
