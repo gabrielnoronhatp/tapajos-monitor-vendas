@@ -322,8 +322,9 @@ export function TableData() {
                       return (
                         <td
                           key={period}
-                          className="p-4 text-white border-r border-gray-700 text-center table-head"
-                        >
+                          className="p-4 text-white border-r border-gray-700 text-center  font-bold  table-head  "
+                         >
+                         
                           {new Intl.NumberFormat("pt-BR", {
                             style: "currency",
                             currency: "BRL",
@@ -336,7 +337,7 @@ export function TableData() {
               )}
             </table>
             <div className="ml-10 text-white text-xl">
-              Valor total por bandeira
+             Total : 
               <br />
               <span>
                 {new Intl.NumberFormat("pt-BR", {
