@@ -8,7 +8,7 @@ import { login } from "@/hooks/slice/authSlice";
 export default function TokenPage() {
   const dispatch = useDispatch();
   const router: any = useRouter();
-  const [isModalOpen, setIsModalOpen] = useState(false);
+ 
   const token =
     router.query?.token ||
     (typeof window !== "undefined" &&
@@ -29,10 +29,7 @@ export default function TokenPage() {
           })
         );
 
-        if (!decodedToken.cpf) {
-          setIsModalOpen(true); // Abre o modal se o CPF não estiver presente
-          return;
-        }
+     
 
         router.push("/");
       } catch (error) {

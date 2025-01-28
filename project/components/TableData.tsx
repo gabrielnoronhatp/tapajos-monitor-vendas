@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import "@/styles/globals.css";
 import { TableHeader } from "./TableHeader";
-import Image from 'next/image';
+import Image from "next/image";
 import { flexAtcLogo, flexLogo, santoLogo } from "@/assets";
 import { fbLogo } from "@/assets";
 
@@ -202,7 +202,7 @@ export function TableData() {
           .reduce((acc, item) => acc + item.valor, 0);
 
         const bandeiraImageMap: { [key: string]: any } = {
-          "FARMABEM (AM)": fbLogo ,
+          "FARMABEM (AM)": fbLogo,
           "Atacarejo (AM)": flexAtcLogo,
           "Flex Farma": flexLogo,
           "Santo Remedio (AM)": santoLogo,
@@ -212,9 +212,9 @@ export function TableData() {
           const imageName = bandeiraImageMap[bandeira];
           if (!imageName) {
             console.warn(`Imagem não encontrada para a bandeira: ${bandeira}`);
-            return "../assets/default-logo.png"; 
+            return "../assets/default-logo.png";
           }
-          return imageName; 
+          return imageName;
         };
 
         if (isMobile) {
@@ -230,8 +230,9 @@ export function TableData() {
                 />
               </div>
               <div className="text-white font-bold">{bandeira}</div>
-              <div className="text-lg text-gray-200">
-                Total: {new Intl.NumberFormat("pt-BR", {
+              <div className="text-2xl text-gray-200 font-bold">
+                Total:{" "}
+                {new Intl.NumberFormat("pt-BR", {
                   style: "currency",
                   currency: "BRL",
                 }).format(totalPorBandeira)}
