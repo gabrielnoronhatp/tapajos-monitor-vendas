@@ -217,10 +217,7 @@ export function TableData() {
           return imageName; 
         };
 
-
-
         if (isMobile) {
-
           return (
             <div key={bandeira} className="mb-4 text-center">
               {/* center image  */}
@@ -234,7 +231,10 @@ export function TableData() {
               </div>
               <div className="text-white font-bold">{bandeira}</div>
               <div className="text-lg text-gray-200">
-                Total: R$ {totalPorBandeira}
+                Total: {new Intl.NumberFormat("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                }).format(totalPorBandeira)}
               </div>
             </div>
           );
