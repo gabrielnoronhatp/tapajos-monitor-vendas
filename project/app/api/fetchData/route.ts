@@ -30,6 +30,7 @@ export async function GET(req: NextRequest) {
         if (!cachedData) {
             const fileContent = fs.readFileSync(filePath, 'utf8');
             cachedData = JSON.parse(fileContent);
+            
         }
 
         const madrugada = cachedData.filter((item: any) => item.hora >= 0 && item.hora < 6);
@@ -38,16 +39,14 @@ export async function GET(req: NextRequest) {
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
        
-        const valor_total_venda = tarde.length > 0 ? parseFloat(tarde[0].valor_total_venda) : 0;
-        const valor_total_dev = tarde.length > 0 ? parseFloat(tarde[0].valor_total_dev) : 0;
+        
 
         const resultData = {
             madrugada,
             manha,
             tarde,
             noite,
-            valor_total_venda,
-            valor_total_dev,
+          
         };
 
         const response = NextResponse.json(resultData);
