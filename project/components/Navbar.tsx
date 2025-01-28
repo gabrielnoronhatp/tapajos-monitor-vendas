@@ -113,7 +113,7 @@ export function Navbar() {
       {/* Returns */}
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Devoluções</div>
-        <div className="text-white text-2xl md:text-3xl font-bold">
+        <div className="text-white text-2xl md:text-3xl font-bold whitespace-nowrap">
           {valorTotalDev !== null && valorTotalDev !== undefined
             ? valorTotalDev.toLocaleString('pt-BR', {
                 style: 'currency',
