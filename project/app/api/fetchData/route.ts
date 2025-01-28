@@ -18,6 +18,7 @@ watcher.on('change', () => {
     try {
         const fileContent = fs.readFileSync(filePath, 'utf8');
         cachedData = JSON.parse(fileContent);
+        console.log('Arquivo atualizado, cache recarregado.');
     } catch (err) {
         console.error('Erro ao atualizar o cache:', err);
     }
@@ -26,21 +27,19 @@ watcher.on('change', () => {
 // Endpoint para leitura
 export async function GET(req: NextRequest) {
     try {
-        const fileContent = fs.readFileSync(filePath, 'utf8');
-        const data = JSON.parse(fileContent);
+        if (!cachedData) {
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+            cachedData = JSON.parse(fileContent);
+        }
 
-        const madrugada = data.filter((item: any) => item.hora >= 0 && item.hora < 6);
-        const manha = data.filter((item: any) => item.hora >= 6 && item.hora < 12);
-        const tarde = data.filter((item: any) => item.hora >= 12 && item.hora < 18);
-        const noite = data.filter((item: any) => item.hora >= 18 && item.hora <= 23);
+        const madrugada = cachedData.filter((item: any) => item.hora >= 0 && item.hora < 6);
+        const manha = cachedData.filter((item: any) => item.hora >= 6 && item.hora < 12);
+        const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
+        const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
-        console.log('Dados da tarde:', tarde);
-
+       
         const valor_total_venda = tarde.length > 0 ? parseFloat(tarde[0].valor_total_venda) : 0;
         const valor_total_dev = tarde.length > 0 ? parseFloat(tarde[0].valor_total_dev) : 0;
-
-        console.log('Valor total de venda:', valor_total_venda);
-        console.log('Valor total de devolução:', valor_total_dev);
 
         const resultData = {
             madrugada,
