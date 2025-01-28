@@ -37,9 +37,9 @@ export async function GET(req: NextRequest) {
         const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
-        const valor_total_venda = cachedData.valor_total_venda; 
-        const valor_total_dev = cachedData.valor_total_dev; 
-     
+        // Extraia os valores do primeiro item do período 'tarde'
+        const valor_total_venda = tarde.length > 0 ? parseFloat(tarde[0].valor_total_venda) : 0;
+        const valor_total_dev = tarde.length > 0 ? parseFloat(tarde[0].valor_total_dev) : 0;
 
         const resultData = {
             madrugada,
