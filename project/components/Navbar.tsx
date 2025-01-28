@@ -34,8 +34,8 @@ export function Navbar() {
         const result = await response.json();
         console.log('result', result);
         setData(result);
-        setValorTotalVenda(result.valor_total_venda);
-        setValorTotalDev(result.valor_total_dev);
+        setValorTotalVenda(result.valor_total_venda ?? null);
+        setValorTotalDev(result.valor_total_dev ?? null);
       } catch (err: any) {
         setError(err.message);
       } finally {
@@ -101,7 +101,7 @@ export function Navbar() {
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Vendas</div>
         <div className="text-white text-2xl md:text-3xl font-bold">
-          {valorTotalVenda !== null
+          {valorTotalVenda !== null && valorTotalVenda !== undefined
             ? valorTotalVenda.toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
@@ -114,7 +114,7 @@ export function Navbar() {
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Devoluções</div>
         <div className="text-white text-2xl md:text-3xl font-bold">
-          {valorTotalDev !== null
+          {valorTotalDev !== null && valorTotalDev !== undefined
             ? valorTotalDev.toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
