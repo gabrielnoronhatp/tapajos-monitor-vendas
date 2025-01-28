@@ -32,17 +32,15 @@ export async function GET(req: NextRequest) {
             cachedData = JSON.parse(fileContent);
             
         }
-        //console.log file content 
-        console.log(cachedData)
-
+        
         const madrugada = cachedData.filter((item: any) => item.hora >= 0 && item.hora < 6);
         const manha = cachedData.filter((item: any) => item.hora >= 6 && item.hora < 12);
         const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
        
-        const valor_total_venda = tarde.length > 0 ? parseFloat(tarde[0].valor_total_venda) : 0;
-        const valor_total_dev = tarde.length > 0 ? parseFloat(tarde[0].valor_total_dev) : 0;
+        const valor_total_venda = tarde.reduce((acc:any, item:any) => acc + parseFloat(item.valor_total_venda), 0);
+        const valor_total_dev = tarde.reduce((acc:any, item:any) => acc + parseFloat(item.valor_total_dev), 0);
 
         const resultData = {
             madrugada,
