@@ -26,7 +26,6 @@ watcher.on('change', () => {
 // Endpoint para leitura
 export async function GET(req: NextRequest) {
     try {
-        // Remover a verificação do cache e sempre ler o arquivo
         const fileContent = fs.readFileSync(filePath, 'utf8');
         const data = JSON.parse(fileContent);
 
@@ -35,8 +34,13 @@ export async function GET(req: NextRequest) {
         const tarde = data.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = data.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
+        console.log('Dados da tarde:', tarde);
+
         const valor_total_venda = tarde.length > 0 ? parseFloat(tarde[0].valor_total_venda) : 0;
         const valor_total_dev = tarde.length > 0 ? parseFloat(tarde[0].valor_total_dev) : 0;
+
+        console.log('Valor total de venda:', valor_total_venda);
+        console.log('Valor total de devolução:', valor_total_dev);
 
         const resultData = {
             madrugada,
