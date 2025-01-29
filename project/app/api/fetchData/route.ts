@@ -32,10 +32,9 @@ watcher.on("change", () => {
 // Endpoint para leitura
 export async function GET(req: NextRequest) {
   try {
-    if (!cachedData) {
       const fileContent = fs.readFileSync(filePath, "utf8");
       cachedData = JSON.parse(fileContent);
-    }
+
 
     const madrugada = cachedData.filter(
       (item: any) => item.hora >= 0 && item.hora < 6
