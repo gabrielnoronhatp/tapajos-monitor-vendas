@@ -78,7 +78,7 @@ export function Navbar() {
 
   return (
 <nav className="w-full bg-[#32959a] p-4">
-  <div className="max-w-7xl mx-auto flex flex-col items-center gap-4">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
     {/* Date */}
     <div className="text-white text-lg font-semibold">
       Manaus, {formattedDate}

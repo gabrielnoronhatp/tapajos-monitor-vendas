@@ -82,8 +82,8 @@ export function TableHeader({
 
 
   return (
-    <thead className="w-full h-[30px]">
-      <tr className="bg-gray-800">
+    <thead className="w-full ">
+      <tr className="bg-gray-900">
         <th
           className="p-2 text-white border-r border-gray-700 w-[120px] cursor-pointer hover:bg-gray-700 transition-colors duration-200"
           onClick={onBandeiraClick}
@@ -92,7 +92,7 @@ export function TableHeader({
             <Image
               src={selectedImage}
               alt={`Imagem para ${bandeira}`}
-              sizes="150px"
+              sizes="120px"
               priority
             />
           </div>
