@@ -38,15 +38,21 @@ export async function GET(req: NextRequest) {
         const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
+        const parseNumber = (value: string) => {
+            if (!value) return 0;
+            return parseFloat(value.replace(',', '.')); // Substitui vírgula por ponto para conversão correta
+        };
+        
         const valor_total_venda = cachedData.reduce((acc: number, item: any) => {
-            const valor = parseFloat(item.valor_total_venda);
-            return acc + (isNaN(valor) ? 0 : valor); 
+            const valor = parseNumber(item.valor_total_venda);
+            return acc + (isNaN(valor) ? 0 : valor);
         }, 0);
         
         const valor_total_dev = cachedData.reduce((acc: number, item: any) => {
-            const valor = parseFloat(item.valor_total_dev);
-            return acc + (isNaN(valor) ? 0 : valor); 
+            const valor = parseNumber(item.valor_total_dev);
+            return acc + (isNaN(valor) ? 0 : valor);
         }, 0);
+        
 
         const resultData = {
             madrugada,
