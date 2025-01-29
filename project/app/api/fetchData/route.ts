@@ -40,9 +40,16 @@ export async function GET(req: NextRequest) {
         const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
+        const valor_total_venda = tarde.reduce((acc: number, item: any) => {
+            const valor = parseFloat(item.valor_total_venda);
+            return !isNaN(valor) ? acc + valor : acc;
+        }, 0);
 
-        const valor_total_venda = tarde[0].valor_total_venda
-        const valor_total_dev = tarde[0].valor_total_dev
+        const valor_total_dev = tarde.reduce((acc: number, item: any) => {
+            const valor = parseFloat(item.valor_total_dev);
+            return !isNaN(valor) ? acc + valor : acc;
+        }, 0);
+       
 
         const resultData = {
             madrugada,
