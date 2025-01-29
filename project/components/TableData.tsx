@@ -326,10 +326,10 @@ export function TableData() {
                       return (
                         <td
                           key={period}
-                          className="p-4 text-white border-r border-gray-700 text-center  font-bold  table-head  "
+                          className="p-4 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl  "
                          >
-                         
                           {formatCurrency(periodTotal.toString())}
+                          {/* {formatCurrency(periodTotal.toString())} */}
                         </td>
                       );
                     }

@@ -100,26 +100,29 @@ export function Navbar() {
       {/* Sales */}
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Vendas</div>
-        <div className="text-white text-2xl md:text-3xl font-bold">
-          {valorTotalVenda !== null && valorTotalVenda !== undefined
+        <div className="text-white text-4xl md:text-3xl font-bold" style={{fontSize: "40px"}} >
+          {/* {valorTotalVenda !== null && valorTotalVenda !== undefined
             ? valorTotalVenda.toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
               })
-            : 'Loading...'}
+            : 'Loading...'} */}
+            000000000000
         </div>
       </div>
 
       {/* Returns */}
       <div className="text-center">
         <div className="text-white text-lg md:text-1xl font-semibold">Devoluções</div>
-        <div className="text-white text-2xl md:text-3xl font-bold whitespace-nowrap">
-          {valorTotalDev !== null && valorTotalDev !== undefined
+        <div className="text-white  md:text-3xl font-bold whitespace-nowrap" style={{fontSize: "40px"}} >
+          {/* {valorTotalDev !== null && valorTotalDev !== undefined
             ? valorTotalDev.toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
               })
-            : 'Loading...'}
+            : 'Loading...'}1 */}
+
+            000000000000
         </div>
       </div>
     </div>
