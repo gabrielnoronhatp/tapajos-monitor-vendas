@@ -82,13 +82,13 @@ export function TableHeader({
 
 
   return (
-    <thead className="w-full">
+    <thead className="w-full h-[30px]">
       <tr className="bg-gray-800">
         <th
-          className="p-2 text-white border-r border-gray-700 w-[150px] cursor-pointer"
+          className="p-2 text-white border-r border-gray-700 w-[120px] cursor-pointer hover:bg-gray-700 transition-colors duration-200"
           onClick={onBandeiraClick}
         >
-          <div className="relative w-full h-[100px] overflow-hidden rounded-lg">
+          <div className="relative w-full h-[100px] overflow-hidden rounded-lg flex justify-center items-center">
             <Image
               src={selectedImage}
               alt={`Imagem para ${bandeira}`}
@@ -97,8 +97,8 @@ export function TableHeader({
             />
           </div>
         </th>
-        <th colSpan={6} className="p-2 text-white border-r border-gray-700">
-          <div className="flex items-center justify-around gap-1 w-full">
+        <th colSpan={6} className=" text-white border-r border-gray-700">
+          <div className="flex items-center justify-around w-full">
             {["Madrugada", "Manha", "Tarde", "Noite"].map((period) => (
               <div
                 key={period}
@@ -106,7 +106,7 @@ export function TableHeader({
                   period.toLowerCase() === currentPeriod
                     ? "opacity-100"
                     : "opacity-50"
-                }`}
+                } hover:opacity-100`}
                 onClick={() => onPeriodClick(period.toLowerCase())}
               >
                 {period === "Madrugada" && (
