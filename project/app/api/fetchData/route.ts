@@ -3,12 +3,7 @@ import path from "path";
 import { NextRequest, NextResponse } from "next/server";
 const chokidar = require("chokidar");
 
-function calcularSoma(array: any[], tipo: string): string {
-  const soma = array.reduce((acc, item) => {
-    return item.tipo === tipo ? acc + parseFloat(item.valor) : acc;
-  }, 0);
-  return soma.toFixed(2).replace(".", ",");
-}
+
 
 let cachedData: any = null;
 const filePath = path.join(
@@ -29,12 +24,11 @@ watcher.on("change", () => {
   }
 });
 
-// Endpoint para leitura
+
 export async function GET(req: NextRequest) {
   try {
-      const fileContent = fs.readFileSync(filePath, "utf8");
-      cachedData = JSON.parse(fileContent);
-
+    const fileContent = fs.readFileSync(filePath, "utf8");
+    cachedData = JSON.parse(fileContent);
 
     const madrugada = cachedData.filter(
       (item: any) => item.hora >= 0 && item.hora < 6
@@ -51,7 +45,6 @@ export async function GET(req: NextRequest) {
 
     const valor_total_venda = cachedData[0]?.valor_total_venda || "0";
     const valor_total_dev = cachedData[0]?.valor_total_dev || "0";
-    
 
     const resultData = {
       madrugada,

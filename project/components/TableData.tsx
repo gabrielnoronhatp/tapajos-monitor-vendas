@@ -179,6 +179,14 @@ export function TableData() {
 
   const currentPeriod = selectedPeriod || getCurrentPeriod();
 
+  const formatCurrency = (value: string) => {
+    const numberValue = parseFloat(value);
+    return new Intl.NumberFormat("pt-BR", {
+      style: "currency",
+      currency: "BRL",
+    }).format(numberValue);
+  };
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -198,8 +206,8 @@ export function TableData() {
         );
 
         const totalPorBandeira = bandeiraTotals
-          .filter((item) => item.hora === "e. Total")
-          .reduce((acc, item) => acc + item.valor, 0);
+          .filter((item:any) => item.hora === "e. Total")
+          .reduce((acc:any, item:any) => acc + parseFloat(item.valor), 0);
 
         const bandeiraImageMap: { [key: string]: any } = {
           "FARMABEM (AM)": fbLogo,
@@ -231,11 +239,7 @@ export function TableData() {
               </div>
               <div className="text-white font-bold">{bandeira}</div>
               <div className="text-2xl text-gray-200 font-bold">
-                Total:{" "}
-                {new Intl.NumberFormat("pt-BR", {
-                  style: "currency",
-                  currency: "BRL",
-                }).format(totalPorBandeira)}
+                Total: {formatCurrency(totalPorBandeira.toString())}
               </div>
             </div>
           );
@@ -325,10 +329,7 @@ export function TableData() {
                           className="p-4 text-white border-r border-gray-700 text-center  font-bold  table-head  "
                          >
                          
-                          {new Intl.NumberFormat("pt-BR", {
-                            style: "currency",
-                            currency: "BRL",
-                          }).format(periodTotal)}
+                          {formatCurrency(periodTotal.toString())}
                         </td>
                       );
                     }
@@ -340,10 +341,7 @@ export function TableData() {
              Total : 
               <br />
               <span>
-                {new Intl.NumberFormat("pt-BR", {
-                  style: "currency",
-                  currency: "BRL",
-                }).format(totalPorBandeira)}
+                {formatCurrency(totalPorBandeira.toString())}
               </span>
             </div>
           </div>
