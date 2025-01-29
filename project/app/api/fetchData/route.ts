@@ -23,24 +23,29 @@ watcher.on('change', () => {
         console.error('Erro ao atualizar o cache:', err);
     }
 });
-
-// Endpoint para leitura
-export async function GET(req: NextRequest) {
+ async function GET(req: NextRequest) {
     try {
         if (!cachedData) {
             const fileContent = fs.readFileSync(filePath, 'utf8');
             cachedData = JSON.parse(fileContent);
             
         }
-        
+
         const madrugada = cachedData.filter((item: any) => item.hora >= 0 && item.hora < 6);
         const manha = cachedData.filter((item: any) => item.hora >= 6 && item.hora < 12);
         const tarde = cachedData.filter((item: any) => item.hora >= 12 && item.hora < 18);
         const noite = cachedData.filter((item: any) => item.hora >= 18 && item.hora <= 23);
 
        
-        const valor_total_venda = tarde.reduce((acc:any, item:any) => acc + parseFloat(item.valor_total_venda), 0);
-        const valor_total_dev = tarde.reduce((acc:any, item:any) => acc + parseFloat(item.valor_total_dev), 0);
+        const valor_total_venda = tarde.reduce((acc: number, item: any) => {
+            const valor = parseFloat(item.valor_total_venda);
+            return !isNaN(valor) ? acc + valor : acc;
+        }, 0);
+
+        const valor_total_dev = tarde.reduce((acc: number, item: any) => {
+            const valor = parseFloat(item.valor_total_dev);
+            return !isNaN(valor) ? acc + valor : acc;
+        }, 0);
 
         const resultData = {
             madrugada,
