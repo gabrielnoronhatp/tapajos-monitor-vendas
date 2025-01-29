@@ -40,12 +40,12 @@ export async function GET(req: NextRequest) {
 
         const valor_total_venda = cachedData.reduce((acc: number, item: any) => {
             const valor = parseFloat(item.valor_total_venda);
-            return valor
+            return acc + (isNaN(valor) ? 0 : valor); 
         }, 0);
-
+        
         const valor_total_dev = cachedData.reduce((acc: number, item: any) => {
             const valor = parseFloat(item.valor_total_dev);
-            return valor
+            return acc + (isNaN(valor) ? 0 : valor); 
         }, 0);
 
         const resultData = {
