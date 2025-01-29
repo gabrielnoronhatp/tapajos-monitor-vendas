@@ -3,8 +3,6 @@ import path from "path";
 import { NextRequest, NextResponse } from "next/server";
 const chokidar = require("chokidar");
 
-
-
 let cachedData: any = null;
 const filePath = path.join(
   "/mnt",
@@ -24,9 +22,9 @@ watcher.on("change", () => {
   }
 });
 
-
 export async function GET(req: NextRequest) {
   try {
+  
     const fileContent = fs.readFileSync(filePath, "utf8");
     cachedData = JSON.parse(fileContent);
 
