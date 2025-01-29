@@ -43,15 +43,9 @@ export async function GET(req: NextRequest) {
             return parseFloat(value.replace(',', '.')); // Substitui vírgula por ponto para conversão correta
         };
         
-        const valor_total_venda = cachedData.reduce((acc: number, item: any) => {
-            const valor = parseNumber(item.valor_total_venda);
-            return acc + (isNaN(valor) ? 0 : valor);
-        }, 0);
-        
-        const valor_total_dev = cachedData.reduce((acc: number, item: any) => {
-            const valor = parseNumber(item.valor_total_dev);
-            return acc + (isNaN(valor) ? 0 : valor);
-        }, 0);
+        const valor_total_venda = cachedData.filter((item:any) => item.valor_total_venda)
+        const valor_total_dev = cachedData.filter((item:any) => item.valor_total_dev)
+          
         
 
         const resultData = {
