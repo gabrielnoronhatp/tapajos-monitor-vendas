@@ -34,8 +34,8 @@ export function Navbar() {
         const result = await response.json();
      
         setData(result);
-        setValorTotalVenda(result.valor_total_venda ?? null);
-        setValorTotalDev(result.valor_total_dev ?? null);
+        setValorTotalVenda(parseFloat(result.valor_total_venda) ?? null);
+        setValorTotalDev(parseFloat(result.valor_total_dev) ?? null);
       } catch (err: any) {
         setError(err.message);
       } finally {
