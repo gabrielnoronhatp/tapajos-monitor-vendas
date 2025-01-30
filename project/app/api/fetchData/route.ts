@@ -12,6 +12,8 @@ const filePath = path.join(
 );
 
 const watcher = chokidar.watch(filePath);
+
+
 watcher.on("change", () => {
   try {
     const fileContent = fs.readFileSync(filePath, "utf8");
@@ -21,6 +23,8 @@ watcher.on("change", () => {
     console.error("Erro ao atualizar o cache:", err);
   }
 });
+
+
 
 export async function GET(req: NextRequest) {
   try {

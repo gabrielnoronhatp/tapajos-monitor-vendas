@@ -272,7 +272,7 @@ export function TableData() {
                       ))}
                     </tr>
                   </thead>
-                  <tbody className="transition-all duration-500">
+                  <tbody className="transition-all duration-500"   >
                     {Array.from(
                       new Map(
                         stores.map((store) => [store.idempresaint, store.loja])
@@ -289,6 +289,7 @@ export function TableData() {
 
                         return (
                           <tr
+                          
                             key={storeEntries[0].idempresaint}
                             className="border-b border-gray-700 hover:bg-gray-900"
                           >
@@ -316,7 +317,7 @@ export function TableData() {
                   </tbody>
                 </>
               ) : (
-                <tr>
+              <tr  >
                   <td className="p-3 mt-4 table-head"></td>
                   {["a. Madrugada", "b. Manha", "c. Tarde", "d. Noite"].map(
                     (period) => {
@@ -326,10 +327,11 @@ export function TableData() {
                       return (
                         <td
                           key={period}
-                          className="p-4 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl  "
+                          className="p-2 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl"
+                          style={{ paddingLeft: "2%" , borderRight: "none" }}
                          >
                           {formatCurrency(periodTotal.toString())}
-                          {/* {formatCurrency(periodTotal.toString())} */}
+                         
                         </td>
                       );
                     }
@@ -337,8 +339,10 @@ export function TableData() {
                 </tr>
               )}
             </table>
-            <div className="ml-10 text-white text-xl">
-             Total : 
+            
+
+            <div className="ml-5 text-white text-xl " style={{marginTop: "8%"}} >
+              Total :
               <br />
               <span>
                 {formatCurrency(totalPorBandeira.toString())}

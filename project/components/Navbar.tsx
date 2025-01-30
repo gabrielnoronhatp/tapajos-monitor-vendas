@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 type Stats = {
   sales: number;
@@ -13,10 +13,9 @@ export function Navbar() {
     sales: 0,
     returns: 0,
   });
+  const [isMobile, setIsMobile] = useState<boolean>(false);
 
   const [currentPage, setCurrentPage] = useState(0);
- 
-  
 
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
@@ -27,12 +26,12 @@ export function Navbar() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('/api/fetchData');
+        const response = await fetch("/api/fetchData");
         if (!response.ok) {
-          throw new Error('Erro ao buscar dados');
+          throw new Error("Erro ao buscar dados");
         }
         const result = await response.json();
-     
+
         setData(result);
         setValorTotalVenda(parseFloat(result.valor_total_venda) ?? null);
         setValorTotalDev(parseFloat(result.valor_total_dev) ?? null);
@@ -45,7 +44,6 @@ export function Navbar() {
 
     fetchData();
     const interval = setInterval(fetchData, 10000);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -56,7 +54,6 @@ export function Navbar() {
 
     return () => clearInterval(timer);
   }, []);
-
 
   useEffect(() => {
     const statsTimer = setInterval(() => {
@@ -69,64 +66,86 @@ export function Navbar() {
     return () => clearInterval(statsTimer);
   }, []);
 
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.matchMedia("(max-width: 768px)").matches);
+    };
+
+    checkMobile(); 
+
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   const currentDate = new Date();
-  const formattedDate = currentDate.toLocaleDateString('pt-BR', {
-    day: '2-digit',
-    month: 'long',
-    year: 'numeric',
+  const formattedDate = currentDate.toLocaleDateString("pt-BR", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
   });
 
   return (
-<nav className="w-full bg-[#32959a] p-4">
-  <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-    {/* Date */}
-    <div className="text-white text-lg font-semibold">
-      Manaus, {formattedDate}
-    </div>
+    <nav className="w-full bg-[#32959a] p-3">
+      <div
+        className={`max-w-5xl mx-auto flex ${
+          isMobile ? "flex-col" : "flex-row"
+        } items-center justify-between gap-3 `}
+      >
+        {/* Date */}
+        <div className="text-white text-lg font-semibold">
+          Manaus, {formattedDate}
+            {/* Time */}
+            <div className="text-white text-3xl md:text-4xl font-bold text-center justify-center items-center flex">
+            {time
+              ? time.toLocaleTimeString("pt-BR", {
+                  hour: "2-digit",
+                  minute: "2-digit",
+                  second: "2-digit",
+                })
+              : "00:00:00"}
+          </div>
+        </div>
 
-    {/* Time */}
-    <div className="text-white text-4xl font-bold">
-      {time
-        ? time.toLocaleTimeString('pt-BR', {
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit',
-          })
-        : 'Loading...'}
-    </div>
+        {/* Stats */}
+        <div className="flex flex-col md:flex-row gap-4 md:gap-10">
+          {/* Sales */}
+          <div className="text-center">
+            <div className="text-white text-lg md:text-xl font-semibold">
+              Vendas
+            </div>
+            <div
+              className="text-white text-4xl md:text-5xl font-bold"
+              style={{ fontSize: isMobile ? "32px" : "50px" }}
+            >
+              {valorTotalVenda !== null && valorTotalVenda !== undefined
+                ? valorTotalVenda.toLocaleString("pt-BR", {
+                    style: "currency",
+                    currency: "BRL",
+                  })
+                : "Loading..."}
+            </div>
+          </div>
 
-    {/* Stats */}
-    <div className="flex gap-12">
-      {/* Sales */}
-      <div className="text-center">
-        <div className="text-white text-lg md:text-1xl font-semibold">Vendas</div>
-        <div className="text-white text-4xl md:text-3xl font-bold" style={{fontSize: "40px"}} >
-          {valorTotalVenda !== null && valorTotalVenda !== undefined
-            ? valorTotalVenda.toLocaleString('pt-BR', {
-                style: 'currency',
-                currency: 'BRL',
-              })
-            : 'Loading...'}
-            
+          {/* Returns */}
+          <div className="text-center">
+            <div className="text-white text-lg md:text-xl font-semibold">
+              Devoluções
+            </div>
+            <div
+              className="text-white text-3xl mt-2 font-bold whitespace-nowrap"
+              style={{ fontSize: isMobile ? "32px" : "45px" }}
+            >
+              {valorTotalDev !== null && valorTotalDev !== undefined
+                ? valorTotalDev.toLocaleString("pt-BR", {
+                    style: "currency",
+                    currency: "BRL",
+                  })
+                : "Loading..."}
+            </div>
+          </div>
+        
         </div>
       </div>
-
-      {/* Returns */}
-      <div className="text-center">
-        <div className="text-white text-lg md:text-1xl font-semibold">Devoluções</div>
-        <div className="text-white  md:text-3xl font-bold whitespace-nowrap" style={{fontSize: "40px"}} >
-          {valorTotalDev !== null && valorTotalDev !== undefined
-            ? valorTotalDev.toLocaleString('pt-BR', {
-                style: 'currency',
-                currency: 'BRL',
-              })
-            : 'Loading...'}
-
-            
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+    </nav>
   );
 }
