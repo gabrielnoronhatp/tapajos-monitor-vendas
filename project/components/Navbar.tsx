@@ -122,7 +122,7 @@ export function Navbar() {
                     style: "currency",
                     currency: "BRL",
                   })
-                : "Loading..."}
+                : "R$ 12000000"}
             </div>
           </div>
 
@@ -140,7 +140,7 @@ export function Navbar() {
                     style: "currency",
                     currency: "BRL",
                   })
-                : "Loading..."}
+                : "Loading... "}
             </div>
           </div>
         

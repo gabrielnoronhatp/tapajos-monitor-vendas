@@ -206,8 +206,8 @@ export function TableData() {
         );
 
         const totalPorBandeira = bandeiraTotals
-          .filter((item:any) => item.hora === "e. Total")
-          .reduce((acc:any, item:any) => acc + parseFloat(item.valor), 0);
+          .filter((item: any) => item.hora === "e. Total")
+          .reduce((acc: any, item: any) => acc + parseFloat(item.valor), 0);
 
         const bandeiraImageMap: { [key: string]: any } = {
           "FARMABEM (AM)": fbLogo,
@@ -272,7 +272,7 @@ export function TableData() {
                       ))}
                     </tr>
                   </thead>
-                  <tbody className="transition-all duration-500"   >
+                  <tbody className="transition-all duration-500">
                     {Array.from(
                       new Map(
                         stores.map((store) => [store.idempresaint, store.loja])
@@ -289,7 +289,6 @@ export function TableData() {
 
                         return (
                           <tr
-                          
                             key={storeEntries[0].idempresaint}
                             className="border-b border-gray-700 hover:bg-gray-900"
                           >
@@ -317,7 +316,7 @@ export function TableData() {
                   </tbody>
                 </>
               ) : (
-              <tr  >
+                <tr>
                   <td className="p-3 mt-4 table-head"></td>
                   {["a. Madrugada", "b. Manha", "c. Tarde", "d. Noite"].map(
                     (period) => {
@@ -328,10 +327,9 @@ export function TableData() {
                         <td
                           key={period}
                           className="p-2 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl"
-                          style={{ paddingLeft: "1%" , borderRight: "none" }}
-                         >
+                          style={{ paddingLeft: "1%", borderRight: "none" }}
+                        >
                           {formatCurrency(periodTotal.toString())}
-                        
                         </td>
                       );
                     }
@@ -339,14 +337,14 @@ export function TableData() {
                 </tr>
               )}
             </table>
-            
 
-            <div className="ml-5 text-white text-xl " style={{marginTop: "8%"}} >
+            <div
+              className="ml-5 text-white text-xl "
+              style={{ marginTop: "8%" }}
+            >
               Total :
               <br />
-              <span>
-                {formatCurrency(totalPorBandeira.toString())}
-              </span>
+              <span>{formatCurrency(totalPorBandeira.toString())}</span>
             </div>
           </div>
         );
