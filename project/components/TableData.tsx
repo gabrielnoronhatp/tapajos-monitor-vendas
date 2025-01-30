@@ -328,10 +328,10 @@ export function TableData() {
                         <td
                           key={period}
                           className="p-2 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl"
-                          style={{ paddingLeft: "2%" , borderRight: "none" }}
+                          style={{ paddingLeft: "1%" , borderRight: "none" }}
                          >
                           {formatCurrency(periodTotal.toString())}
-                         
+                        
                         </td>
                       );
                     }
