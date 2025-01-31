@@ -329,8 +329,8 @@ export function TableData() {
                           className="p-2 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl"
                           style={{ paddingRight: "1%", borderRight: "none" }}
                         >
-                          22222
-                          {/* {formatCurrency(periodTotal.toString())} */}
+                          
+                          {formatCurrency(periodTotal.toString())}
                         </td>
                       );
                     }
