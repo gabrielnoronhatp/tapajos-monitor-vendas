@@ -14,9 +14,7 @@ export function Navbar() {
     returns: 0,
   });
   const [isMobile, setIsMobile] = useState<boolean>(false);
-
   const [currentPage, setCurrentPage] = useState(0);
-
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
