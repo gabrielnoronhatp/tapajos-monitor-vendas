@@ -62,6 +62,8 @@ export async function GET(req: NextRequest) {
     return response;
   } catch (err) {
     console.error("Erro ao processar a requisição:", err);
-    return NextResponse.json({ error: "Erro interno" }, { status: 500 });
+    const response = NextResponse.json({ error: "Erro interno" }, { status: 500 });
+    response.headers.set("X-Refresh-Page", "true");
+    return response;
   }
 }
