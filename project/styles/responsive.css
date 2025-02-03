@@ -1,7 +1,7 @@
 /* Default styles for larger screens */
 
 
-  
+
 /* Styles for mobile screens */
 @media (max-width: 768px) {
   .bandeira-details {
@@ -18,4 +18,12 @@
 /* Fixed width for table cells */
 .fixed-width {
   width: 100px; /* Adjust this value as needed */
+} 
+
+
+.fixed-width-table {
+ 
+  border:none;
+  padding:0;
+   
 } 
