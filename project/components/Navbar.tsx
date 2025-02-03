@@ -120,7 +120,7 @@ export function Navbar() {
                     style: "currency",
                     currency: "BRL",
                   })
-                : "R$ 12000000"}
+                : "Loading..."}
             </div>
           </div>
 

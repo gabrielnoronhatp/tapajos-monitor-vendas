@@ -187,6 +187,22 @@ export function TableData() {
     }).format(numberValue);
   };
 
+  const bandeiraImageMap: { [key: string]: any } = {
+    "FARMABEM (AM)": fbLogo,
+    "Atacarejo (AM)": flexAtcLogo,
+    "Flex Farma": flexLogo,
+    "Santo Remedio (AM)": santoLogo,
+  };
+
+  const getImageForBandeira = (bandeira: string) => {
+    const imageName = bandeiraImageMap[bandeira];
+    if (!imageName) {
+      console.warn(`Imagem não encontrada para a bandeira: ${bandeira}`);
+      return "../assets/default-logo.png";
+    }
+    return imageName;
+  };
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -209,26 +225,9 @@ export function TableData() {
           .filter((item: any) => item.hora === "e. Total")
           .reduce((acc: any, item: any) => acc + parseFloat(item.valor), 0);
 
-        const bandeiraImageMap: { [key: string]: any } = {
-          "FARMABEM (AM)": fbLogo,
-          "Atacarejo (AM)": flexAtcLogo,
-          "Flex Farma": flexLogo,
-          "Santo Remedio (AM)": santoLogo,
-        };
-
-        const getImageForBandeira = (bandeira: string) => {
-          const imageName = bandeiraImageMap[bandeira];
-          if (!imageName) {
-            console.warn(`Imagem não encontrada para a bandeira: ${bandeira}`);
-            return "../assets/default-logo.png";
-          }
-          return imageName;
-        };
-
         if (isMobile) {
           return (
             <div key={bandeira} className="mb-4 text-center">
-              {/* center image  */}
               <div className="flex justify-center items-center ">
                 <Image
                   src={getImageForBandeira(bandeira)}
@@ -265,7 +264,7 @@ export function TableData() {
                       {getPeriodHours(currentPeriod).map((hour, index) => (
                         <th
                           key={hour}
-                          className="p-4 text-white border-r border-gray-700 text-center"
+                          className="p-4 text-white border-r border-gray-700 text-center fixed-width"
                         >
                           {`${hour}:00 - ${hour}:59`}
                         </th>
@@ -304,7 +303,7 @@ export function TableData() {
                               return (
                                 <td
                                   key={`${loja}-${hourRange}`}
-                                  className="p-4 text-white border-r border-gray-700 text-center"
+                                  className="p-4 text-white border-r border-gray-700 text-center fixed-width"
                                 >
                                   {value}
                                 </td>
@@ -326,10 +325,9 @@ export function TableData() {
                       return (
                         <td
                           key={period}
-                          className="p-2 text-white border-r border-gray-700 text-center  font-bold  table-head   text-2xl"
+                          className="p-2 text-white border-r border-gray-700 text-center font-bold table-head text-2xl fixed-width"
                           style={{ paddingRight: "3%", borderRight: "none" }}
                         >
-                          
                           {formatCurrency(periodTotal.toString())}
                         </td>
                       );

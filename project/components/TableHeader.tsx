@@ -82,7 +82,7 @@ export function TableHeader({
 
 
   return (
-    <thead className="w-full ">
+    <thead className="w-full">
       <tr className="bg-gray-900">
         <th
           className="p-2 text-white border-r border-gray-700 w-[120px] cursor-pointer hover:bg-gray-700 transition-colors duration-200"
@@ -97,7 +97,7 @@ export function TableHeader({
             />
           </div>
         </th>
-        <th colSpan={6} className=" text-white border-r border-gray-700">
+        <th colSpan={6} className="text-white border-r border-gray-700">
           <div className="flex items-center justify-around w-full">
             {["Madrugada", "Manha", "Tarde", "Noite"].map((period) => (
               <div
@@ -106,7 +106,7 @@ export function TableHeader({
                   period.toLowerCase() === currentPeriod
                     ? "opacity-100"
                     : "opacity-50"
-                } hover:opacity-100`}
+                } hover:opacity-100 fixed-width`}
                 onClick={() => onPeriodClick(period.toLowerCase())}
               >
                 {period === "Madrugada" && (
