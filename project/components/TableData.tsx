@@ -326,7 +326,8 @@ export function TableData() {
                         <td
                           key={period}
                           className="p-2 text-white border-r border-gray-700 text-center font-bold table-head text-2xl fixed-width"
-                          style={{ paddingRight: "3%", borderRight: "none" }}
+                          style={{borderRight: "none" ,justifyContent: "center"}}
+                          
                         >
                           {formatCurrency(periodTotal.toString())}
                         </td>
