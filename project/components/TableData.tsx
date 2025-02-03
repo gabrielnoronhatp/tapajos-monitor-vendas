@@ -4,6 +4,7 @@
   import "@/styles/globals.css";
   import { TableHeader } from "./TableHeader";
   import Image from "next/image";
+  import "@/styles/responsive.css";
   import { flexAtcLogo, flexLogo, santoLogo } from "@/assets";
   import { fbLogo } from "@/assets";
 
@@ -245,7 +246,7 @@
           }
           return (
             <div key={bandeira} className="flex justify-between items-start mb-8">
-              <table className="w-full">
+              <table className="w-full" style={{ tableLayout: "fixed" }} >
                 <TableHeader
                   bandeira={bandeira}
                   onBandeiraClick={() => toggleView(bandeira)}
