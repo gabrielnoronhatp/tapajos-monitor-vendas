@@ -326,12 +326,12 @@
                         return (
                           <td
                             key={period}
-                            className=" text-white border-r border-gray-700 text-center font-bold table-head text-2xl fixed-width-table"
+                            className="p-2 text-white border-r border-gray-700 text-center font-bold table-head text-2xl fixed-width"
                             style={{borderRight: "none" }}
                             
                           > 
-                            R$ 28.974,56
-                          
+                            
+                            {formatCurrency(periodTotal.toString())}
                           </td>
                         );
                       }
