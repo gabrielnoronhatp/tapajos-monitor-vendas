@@ -326,7 +326,7 @@
                           <td
                             key={period}
                             className="p-2 text-white border-r border-gray-700 text-center font-bold table-head text-2xl fixed-width"
-                            style={{borderRight: "none" ,paddingLeft: "3%"}}
+                            style={{borderRight: "none" }}
                             
                           >
                             {formatCurrency(periodTotal.toString())}
