@@ -3,7 +3,7 @@
 import { Sun, Sunrise, Sunset, Moon } from "lucide-react";
 import Image from "next/image";
 import { flexAtcLogo, fbLogo, santoLogo, flexLogo } from "@/assets";
-
+import "@/styles/responsive.css";
 export function TableHeader({
   bandeira,
   onBandeiraClick,
@@ -88,11 +88,11 @@ export function TableHeader({
           className="p-2 text-white border-r border-gray-700 w-[120px] cursor-pointer hover:bg-gray-700 transition-colors duration-200"
           onClick={onBandeiraClick}
         >
-          <div className="relative w-full h-[100px] overflow-hidden rounded-lg flex justify-center items-center">
+          <div className="relative  h-[120px] overflow-hidden rounded-lg flex justify-center items-center">
             <Image
               src={selectedImage}
               alt={`Imagem para ${bandeira}`}
-              sizes="120px"
+              width={120}
               priority
             />
           </div>

@@ -246,7 +246,7 @@
           }
           return (
             <div key={bandeira} className="flex justify-between items-start mb-8">
-              <table className="w-full" style={{ tableLayout: "fixed" }} >
+              <table className="w-full"  >
                 <TableHeader
                   bandeira={bandeira}
                   onBandeiraClick={() => toggleView(bandeira)}
