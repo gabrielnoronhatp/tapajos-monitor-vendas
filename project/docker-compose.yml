@@ -16,6 +16,14 @@ services:
       - app_network 
     volumes:
       - /mnt/realtime-app-database:/mnt/realtime-app-database
+    labels:
+                - "traefik.enable=true"
+                - "traefik.http.routers.frontend.rule=Host(`api.grupotapajos.com.br`)" 
+                - "traefik.http.routers.frontend.entrypoints=web,websecure"
+                - "traefik.http.routers.frontend.tls.certresolver=leresolver"
+                - "traefik.http.routers.frontend.service=frontend"
+                - "traefik.http.services.frontend.loadbalancer.server.port=3000"
+
 
 networks:
   app_network:
